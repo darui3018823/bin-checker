@@ -1,0 +1,3150 @@
+{
+    "0-ISO/TC 68 and other industry assignments": [
+        {
+            "bin": "0000-69",
+            "description": "atre CARD"
+        },
+        {
+            "bin": "0015-30",
+            "description": "京王パスポートカード"
+        },
+        {
+            "bin": "0129-01",
+            "description": "VIEW"
+        },
+        {
+            "bin": "0129-69",
+            "description": "GRANDUO ポイントカード"
+        },
+        {
+            "bin": "0140-01",
+            "description": "石丸(アイアイ)カード → エディオンカード"
+        }
+    ],
+    "1-Airlines": [
+        {
+            "bin": "1001-00",
+            "description": "ソニーファイナンスインターナショナル Edy"
+        },
+        {
+            "bin": "1001-90",
+            "description": "AMC 宮交バスカ Edy"
+        },
+        {
+            "bin": "1001-96",
+            "description": "ANA MILEAGE CLUB Edy"
+        },
+        {
+            "bin": "1005-00",
+            "description": "三井住友カード Edy"
+        },
+        {
+            "bin": "1206-11",
+            "description": "楽天銀行 スーパーローンカード"
+        },
+        {
+            "bin": "1276-98",
+            "description": "三井住友カード"
+        }
+    ],
+    "2-Airlines and other industry assignments": [
+        {
+            "bin": "2000-00",
+            "description": "イズミヤカード（プロパー）"
+        },
+        {
+            "bin": "2001-00",
+            "description": "マックチップ(三井住友銀行) Edy"
+        },
+        {
+            "bin": "2101-91",
+            "description": "D-ONEカード(第一専門店会)"
+        }
+    ],
+    "3-Travel and entertainment": [
+        {
+            "bin": "3001-00",
+            "description": "GAITAME.com(ビットワレット) Edy"
+        },
+        {
+            "bin": "3001-01",
+            "description": "Rakuten Point Club Edy"
+        },
+        {
+            "bin": "3001-40",
+            "description": "おサイフケータイ(F) Edy"
+        },
+        {
+            "bin": "3001-40",
+            "description": "おサイフケータイ(SH) Edy"
+        },
+        {
+            "bin": "3001-50",
+            "description": "おサイフケータイ(SO) Edy"
+        },
+        {
+            "bin": "3003-00",
+            "description": "BIG ECHO MEMBERS CARD Edy"
+        },
+        {
+            "bin": "3070-00",
+            "description": "OMC(HOUSE)"
+        },
+        {
+            "bin": "3100-00",
+            "description": "JCB昭和シェルビジネスカード"
+        },
+        {
+            "bin": "3340-21",
+            "description": "ペルソナハウス"
+        },
+        {
+            "bin": "3528-24",
+            "description": "SAISON 郵貯 JCB"
+        },
+        {
+            "bin": "3528-30",
+            "description": "SAISON Loft JCBA"
+        },
+        {
+            "bin": "3528-55",
+            "description": "SAISON JCB"
+        },
+        {
+            "bin": "3528-59",
+            "description": "出光クレジット まいどカード JCB"
+        },
+        {
+            "bin": "3528-65",
+            "description": "SAISON JAF JCB"
+        },
+        {
+            "bin": "3528-65",
+            "description": "SAISON MUJI JCB"
+        },
+        {
+            "bin": "3528-67",
+            "description": "SAISON Mei JCB"
+        },
+        {
+            "bin": "3528-68",
+            "description": "SAISON PEC JCB"
+        },
+        {
+            "bin": "3540-02",
+            "description": "さくらカード JCB 一般"
+        },
+        {
+            "bin": "3540-06",
+            "description": "JCB　福岡カード"
+        },
+        {
+            "bin": "3540-08",
+            "description": "JCB"
+        },
+        {
+            "bin": "3540-09",
+            "description": "UFJ JCB SNOOPY-L"
+        },
+        {
+            "bin": "3540-12",
+            "description": "UFJ JCB"
+        },
+        {
+            "bin": "3540-14",
+            "description": "JCB北海道・JCBカード"
+        },
+        {
+            "bin": "3540-16",
+            "description": "セーブオン JCB"
+        },
+        {
+            "bin": "3540-17",
+            "description": "りそなJCB"
+        },
+        {
+            "bin": "3540-19",
+            "description": "UFJ JCB"
+        },
+        {
+            "bin": "3540-19",
+            "description": "さくらカードJCB"
+        },
+        {
+            "bin": "3540-20",
+            "description": "JAF JCB"
+        },
+        {
+            "bin": "3540-20",
+            "description": "JCB NET PLUS"
+        },
+        {
+            "bin": "3540-20",
+            "description": "PIA JCB"
+        },
+        {
+            "bin": "3540-21",
+            "description": "スルガ銀行JCB"
+        },
+        {
+            "bin": "3540-22",
+            "description": "トライカードJCB"
+        },
+        {
+            "bin": "3540-23",
+            "description": "ANA-SFC-JCB"
+        },
+        {
+            "bin": "3540-23",
+            "description": "JCB-LINDA"
+        },
+        {
+            "bin": "3540-23",
+            "description": "JCBコーポレート一般"
+        },
+        {
+            "bin": "3540-23",
+            "description": "JR JCB ビジネスプラスカード"
+        },
+        {
+            "bin": "3540-23",
+            "description": "フィナンシャルワンメンバーズUFJ-JCB(グランデ、一般)"
+        },
+        {
+            "bin": "3540-23",
+            "description": "早稲田カードJCB"
+        },
+        {
+            "bin": "3540-24",
+            "description": "ANA-JCB(WIDE、一般)"
+        },
+        {
+            "bin": "3540-24",
+            "description": "FinancialOne-JCB"
+        },
+        {
+            "bin": "3540-24",
+            "description": "JCB"
+        },
+        {
+            "bin": "3540-24",
+            "description": "JAF-JCB"
+        },
+        {
+            "bin": "3540-24",
+            "description": "慶應JCB"
+        },
+        {
+            "bin": "3540-25",
+            "description": "ANA JCB一般"
+        },
+        {
+            "bin": "3540-25",
+            "description": "JCB マクドナルド"
+        },
+        {
+            "bin": "3540-25",
+            "description": "JCB-Arubara"
+        },
+        {
+            "bin": "3540-25",
+            "description": "U-29/JCBカード"
+        },
+        {
+            "bin": "3540-25",
+            "description": "さくらグランデ"
+        },
+        {
+            "bin": "3540-26",
+            "description": "ANA-JCB 一般"
+        },
+        {
+            "bin": "3540-26",
+            "description": "JCB(グランデ、コーポレート一般)"
+        },
+        {
+            "bin": "3540-26",
+            "description": "MJC-JCB"
+        },
+        {
+            "bin": "3540-26",
+            "description": "ORIX Rent-A-Car Card JCB"
+        },
+        {
+            "bin": "3540-26",
+            "description": "U-29カード/JCB"
+        },
+        {
+            "bin": "3540-26",
+            "description": "UFJ-JCB"
+        },
+        {
+            "bin": "3540-27",
+            "description": "JCB E.GO"
+        },
+        {
+            "bin": "3540-27",
+            "description": "ANA-JCB(WIDE、一般)"
+        },
+        {
+            "bin": "3540-27",
+            "description": "JCB Arubara"
+        },
+        {
+            "bin": "3540-27",
+            "description": "JCB LivingPlus"
+        },
+        {
+            "bin": "3540-27",
+            "description": "JCB U-29"
+        },
+        {
+            "bin": "3540-27",
+            "description": "JCB-NetMile-Arubara"
+        },
+        {
+            "bin": "3540-27",
+            "description": "フィナンシャルワンメンバーズUFJ-JCB 一般"
+        },
+        {
+            "bin": "3540-27",
+            "description": "早稲田カード"
+        },
+        {
+            "bin": "3540-27",
+            "description": "明治大学学生カード JCB"
+        },
+        {
+            "bin": "3540-28",
+            "description": "さくらJCB-Arubara"
+        },
+        {
+            "bin": "3540-28",
+            "description": "さくらカード一般"
+        },
+        {
+            "bin": "3540-28",
+            "description": "フィナンシャルワンメンバーズUFJ-JCB グランデ"
+        },
+        {
+            "bin": "3540-28",
+            "description": "株式会社JCB-UnitedAirline"
+        },
+        {
+            "bin": "3540-31",
+            "description": "さくらグランデ"
+        },
+        {
+            "bin": "3540-33",
+            "description": "さくらTYPE SELECT"
+        },
+        {
+            "bin": "3540-34",
+            "description": "JCB EITT"
+        },
+        {
+            "bin": "3540-35",
+            "description": "さくらTYPE SELECT"
+        },
+        {
+            "bin": "3540-36",
+            "description": "ANA JCB 一般"
+        },
+        {
+            "bin": "3540-60",
+            "description": "大学生協-JCB"
+        },
+        {
+            "bin": "3540-62",
+            "description": "JCB-ANA St"
+        },
+        {
+            "bin": "3540-68",
+            "description": "JCB"
+        },
+        {
+            "bin": "3540-68",
+            "description": "Microsoft Plus三和JCB"
+        },
+        {
+            "bin": "3540-69",
+            "description": "JAL Card JCB (一般,CLUB-A,JGC)"
+        },
+        {
+            "bin": "3540-70",
+            "description": "JCBぴあカード"
+        },
+        {
+            "bin": "3540-70",
+            "description": "JCBセリーグ阪神タイガースカード"
+        },
+        {
+            "bin": "3540-72",
+            "description": "JCB DRIVER'S PLUS/ETC"
+        },
+        {
+            "bin": "3540-74",
+            "description": "新銀行東京カード JCB"
+        },
+        {
+            "bin": "3540-74",
+            "description": "福岡銀行arecore-JCB"
+        },
+        {
+            "bin": "3540-77",
+            "description": "JCBネクサス"
+        },
+        {
+            "bin": "3540-77",
+            "description": "フィナンシャルワンメンバーズUFJ-JCB ネクサス"
+        },
+        {
+            "bin": "3540-80",
+            "description": "JCBシナジー"
+        },
+        {
+            "bin": "3540-82",
+            "description": "JCB北海道・グランデ"
+        },
+        {
+            "bin": "3540-87",
+            "description": "DoCoMo UFJ-JCB"
+        },
+        {
+            "bin": "3540-88",
+            "description": "Persona JCB"
+        },
+        {
+            "bin": "3540-90",
+            "description": "アイワイカード JCB"
+        },
+        {
+            "bin": "3540-93",
+            "description": "アイワイカード JCB"
+        },
+        {
+            "bin": "3541-00",
+            "description": "西銀JCB-G"
+        },
+        {
+            "bin": "3541-01",
+            "description": "ANA JCB GOLD (一般, Wide, SuperFlyers)"
+        },
+        {
+            "bin": "3541-01",
+            "description": "JCB"
+        },
+        {
+            "bin": "3541-01",
+            "description": "JCB GOLD プロパー"
+        },
+        {
+            "bin": "3541-01",
+            "description": "JCB GOLD UNITED マイレージプラス"
+        },
+        {
+            "bin": "3541-01",
+            "description": "慶應JCB-Gold"
+        },
+        {
+            "bin": "3541-01",
+            "description": "早稲田GOLDカード"
+        },
+        {
+            "bin": "3541-02",
+            "description": "JCB"
+        },
+        {
+            "bin": "3541-02",
+            "description": "JCBゴールド"
+        },
+        {
+            "bin": "3541-02",
+            "description": "ANA JCB ワイドゴールド"
+        },
+        {
+            "bin": "3541-02",
+            "description": "フィナンシャルワンメンバーズUFJ-JCB ゴールド"
+        },
+        {
+            "bin": "3541-69",
+            "description": "JAL Card CLUB-A JCB-G"
+        },
+        {
+            "bin": "3541-80",
+            "description": "JCB THE CLASS"
+        },
+        {
+            "bin": "3541-81",
+            "description": "JCB BUSINESS"
+        },
+        {
+            "bin": "3541-81",
+            "description": "KKR(国家公務員共済組合連合会) JCB BUSINESS"
+        },
+        {
+            "bin": "3541-81",
+            "description": "JR-JCB-BUSINESS-Gold"
+        },
+        {
+            "bin": "3542-58",
+            "description": "JAL JCB"
+        },
+        {
+            "bin": "3542-59",
+            "description": "YAHOO!JAPAN JCBカード"
+        },
+        {
+            "bin": "3542-77",
+            "description": "Ario JCBカード"
+        },
+        {
+            "bin": "3542-87",
+            "description": "HANA PLUS JCBカード"
+        },
+        {
+            "bin": "3542-90",
+            "description": "小田急ポイントクレジットカード"
+        },
+        {
+            "bin": "3551-00",
+            "description": "JCB法人ゴールド"
+        },
+        {
+            "bin": "3580-10",
+            "description": "日立カード 一般"
+        },
+        {
+            "bin": "3580-14",
+            "description": "NOVA CARD JCB (日立カードサービス)"
+        },
+        {
+            "bin": "3581-80",
+            "description": "JR東海エクスプレス・カード（JCB）"
+        },
+        {
+            "bin": "3582-01",
+            "description": "日専連おびひろJCB"
+        },
+        {
+            "bin": "3582-04",
+            "description": "日専連JCB"
+        },
+        {
+            "bin": "3582-73",
+            "description": "dsp JCB"
+        },
+        {
+            "bin": "3582-77",
+            "description": "APLUS JCB (TSUTAYA, なんばCITY含)"
+        },
+        {
+            "bin": "3582-90",
+            "description": "GE-JCB"
+        },
+        {
+            "bin": "3582-98",
+            "description": "GE CARD JCB"
+        },
+        {
+            "bin": "3582-99",
+            "description": "GE CARD JCB GOLD"
+        },
+        {
+            "bin": "3583-05",
+            "description": "@nifty Orico-JCB"
+        },
+        {
+            "bin": "3583-05",
+            "description": "ミニミニ Orico-JCB"
+        },
+        {
+            "bin": "3583-05",
+            "description": "モンテローザOrico-JCB"
+        },
+        {
+            "bin": "3584-03",
+            "description": "楽天カード JCB"
+        },
+        {
+            "bin": "3584-03",
+            "description": "KC JCB"
+        },
+        {
+            "bin": "3584-10",
+            "description": "AEON JCB"
+        },
+        {
+            "bin": "3584-11",
+            "description": "AEON JCB"
+        },
+        {
+            "bin": "3584-13",
+            "description": "AEON JCB"
+        },
+        {
+            "bin": "3584-19",
+            "description": "AEON JCB (ETC, スポーツオーソリティー含)"
+        },
+        {
+            "bin": "3584-81",
+            "description": "Panasonic-JCB"
+        },
+        {
+            "bin": "3584-88",
+            "description": "Panasonic-JCB"
+        },
+        {
+            "bin": "3584-90",
+            "description": "高島屋JCB"
+        },
+        {
+            "bin": "3586-31",
+            "description": "MUFG-JCB"
+        },
+        {
+            "bin": "3587-01",
+            "description": "ゲゲゲの鬼太郎カード"
+        },
+        {
+            "bin": "3587-01",
+            "description": "SC・JCBカード"
+        },
+        {
+            "bin": "3587-02",
+            "description": "北専JCB"
+        },
+        {
+            "bin": "3587-03",
+            "description": "札信販JCB"
+        },
+        {
+            "bin": "3587-08",
+            "description": "GEコンシューマー・ファイナンス"
+        },
+        {
+            "bin": "3587-11",
+            "description": "JACCS-JCB ピーシーデポカード"
+        },
+        {
+            "bin": "3587-11",
+            "description": "鰤JACCS-JCB"
+        },
+        {
+            "bin": "3587-11",
+            "description": "JACCS-横浜インビテーションカード-JCB"
+        },
+        {
+            "bin": "3587-11",
+            "description": "JACCS-はこだてカード-JCB"
+        },
+        {
+            "bin": "3587-11",
+            "description": "JACCS-とあるカードの加点収集"
+        },
+        {
+            "bin": "3587-11",
+            "description": "Ponta Premium Card"
+        },
+        {
+            "bin": "3587-11",
+            "description": "JACCS 漢方スタイルクラブカード JCB"
+        },
+        {
+            "bin": "3587-41",
+            "description": "JUPI Card"
+        },
+        {
+            "bin": "3587-42",
+            "description": "UCS JCB (一般, GOLD)"
+        },
+        {
+            "bin": "3587-43",
+            "description": "全日信販JCB"
+        },
+        {
+            "bin": "3587-44",
+            "description": "ゆめJCB"
+        },
+        {
+            "bin": "3587-46",
+            "description": "OSAKA PiTaPa-トヨタTS3-JCB"
+        },
+        {
+            "bin": "3587-46",
+            "description": "JKJK"
+        },
+        {
+            "bin": "3587-47",
+            "description": "トヨタTS3カード JCB-G"
+        },
+        {
+            "bin": "3587-50",
+            "description": "OMC JCB"
+        },
+        {
+            "bin": "3587-51",
+            "description": "OMC JCB"
+        },
+        {
+            "bin": "3587-59",
+            "description": "OMC JCB ゴールド"
+        },
+        {
+            "bin": "3587-61",
+            "description": "JCB"
+        },
+        {
+            "bin": "3587-81",
+            "description": "CF JCB"
+        },
+        {
+            "bin": "3587-81",
+            "description": "セディナ JCB JR東海エクスプレス"
+        },
+        {
+            "bin": "3587-87",
+            "description": "JALカードSuica JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "View-Suica-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "ビックカメラSuicaカードJCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "ルミネカード-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "大人の休日倶楽部ミドルカード-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "大人の休日倶楽部ジパングカード-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "エスパルビュー・スイカカード-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "TYOビュー・スイカカード-JCB"
+        },
+        {
+            "bin": "3587-87",
+            "description": "ジェクサービュー・スイカカード-JCB"
+        },
+        {
+            "bin": "3587-93",
+            "description": "イズミヤカード-JCB"
+        },
+        {
+            "bin": "3588-21",
+            "description": "荘内銀行バンクカード-JCB"
+        },
+        {
+            "bin": "3588-74",
+            "description": "bc"
+        },
+        {
+            "bin": "3648-88",
+            "description": "平茄子 (タイ)"
+        },
+        {
+            "bin": "3691-15",
+            "description": "Diners-Black"
+        },
+        {
+            "bin": "3691-15",
+            "description": "WASEDA Diners"
+        },
+        {
+            "bin": "3691-16",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3691-16",
+            "description": "Diners 提携"
+        },
+        {
+            "bin": "3691-16",
+            "description": "Diners 提携JC"
+        },
+        {
+            "bin": "3691-16",
+            "description": "Diners プレミアム"
+        },
+        {
+            "bin": "3691-17",
+            "description": "Diners citigold"
+        },
+        {
+            "bin": "3691-17",
+            "description": "ANA Diners Super Flyers Card Premium"
+        },
+        {
+            "bin": "3691-18",
+            "description": "ANA Diners Super Flyers Card"
+        },
+        {
+            "bin": "3691-50",
+            "description": "DINERS NewOtaniClub"
+        },
+        {
+            "bin": "3691-61",
+            "description": "JAL Diners"
+        },
+        {
+            "bin": "3691-63",
+            "description": "JAL Global Club Diners"
+        },
+        {
+            "bin": "3695-41",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-54",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-63",
+            "description": "Diners コーポレート"
+        },
+        {
+            "bin": "3695-70",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-71",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-72",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-74",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3695-91",
+            "description": "Diners 一般"
+        },
+        {
+            "bin": "3761-01",
+            "description": "AMEX GOLD"
+        },
+        {
+            "bin": "3761-03",
+            "description": "AMEX GOLD"
+        },
+        {
+            "bin": "3761-04",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-07",
+            "description": "AMEX GOLD"
+        },
+        {
+            "bin": "3761-08",
+            "description": "AMEX GOLD"
+        },
+        {
+            "bin": "3761-09",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-12",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-18",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-21",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-22",
+            "description": "オークラクラブ AMEX"
+        },
+        {
+            "bin": "3761-24",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-26",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-27",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-28",
+            "description": "新生 AMEX"
+        },
+        {
+            "bin": "3761-32",
+            "description": "AMEX"
+        },
+        {
+            "bin": "3761-32",
+            "description": "DELTA SKYMILES AMEX GOLD"
+        },
+        {
+            "bin": "3761-35",
+            "description": "ANA AMEX"
+        },
+        {
+            "bin": "3761-35",
+            "description": "AMEX Platinum"
+        },
+        {
+            "bin": "3761-53",
+            "description": "AMEX Corp."
+        },
+        {
+            "bin": "3761-68",
+            "description": "AMEX Corp."
+        },
+        {
+            "bin": "3761-69",
+            "description": "AMEX Business staff (GOLD)"
+        },
+        {
+            "bin": "3761-70",
+            "description": "AMEX Business owner (PLAT)"
+        },
+        {
+            "bin": "3761-71",
+            "description": "AMEX GOLD Corp."
+        },
+        {
+            "bin": "3761-74",
+            "description": "AMEX GOLD Corp."
+        },
+        {
+            "bin": "3761-76",
+            "description": "AMEX GOLD Corp."
+        },
+        {
+            "bin": "3761-77",
+            "description": "AMEX Centurion Card"
+        },
+        {
+            "bin": "3761-77",
+            "description": "AMEX Platinum"
+        },
+        {
+            "bin": "3761-78",
+            "description": "AMEX Centurion"
+        },
+        {
+            "bin": "3761-79",
+            "description": "AMEX Platinum"
+        },
+        {
+            "bin": "3763-10",
+            "description": "AMEX GOLD (タイ)"
+        },
+        {
+            "bin": "3765-11",
+            "description": "AMEX コンパニオン"
+        },
+        {
+            "bin": "3765-12",
+            "description": "AMEX コンパニオン (色がグレー)"
+        },
+        {
+            "bin": "3777-81",
+            "description": "SAISON AMEX"
+        },
+        {
+            "bin": "3777-81",
+            "description": "SAISON PLATINUM AMEX"
+        },
+        {
+            "bin": "3777-81",
+            "description": "SAISON JAF AMEX"
+        },
+        {
+            "bin": "3777-81",
+            "description": "SAISON PARCO AMEX"
+        },
+        {
+            "bin": "3777-81",
+            "description": "SAISON 鶴見はなぽーとブロッサム AMEX"
+        },
+        {
+            "bin": "3777-82",
+            "description": "SAISON DoCoMo AMEX"
+        },
+        {
+            "bin": "3778-58",
+            "description": "MUFGカード ゴールド AMEX"
+        },
+        {
+            "bin": "3790-29",
+            "description": "AMEX GIFT CARD (アメックス・プリペイドカード(有))"
+        }
+    ],
+    "4-Banking and financial": [
+        {
+            "bin": "4028-55",
+            "description": "CITIBANK Dollar VISA"
+        },
+        {
+            "bin": "4060-42",
+            "description": "BANK ONE - THE ONE Card (VISA check card)"
+        },
+        {
+            "bin": "4153-14",
+            "description": "日興プラチナデビットカード (VISAデビット)"
+        },
+        {
+            "bin": "4205-10",
+            "description": "AEON"
+        },
+        {
+            "bin": "4205-11",
+            "description": "AEON"
+        },
+        {
+            "bin": "4205-11",
+            "description": "AEON-GOLD-VISA"
+        },
+        {
+            "bin": "4205-12",
+            "description": "AEON-GOLD-VISA"
+        },
+        {
+            "bin": "4205-19",
+            "description": "AEON"
+        },
+        {
+            "bin": "4205-20",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4205-21",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4205-22",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4205-23",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4205-29",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4205-29",
+            "description": "AEON JMB VISA"
+        },
+        {
+            "bin": "4205-29",
+            "description": "AEON-Suica-VISA"
+        },
+        {
+            "bin": "4205-29",
+            "description": "AEON COSMO THE CARD Opus"
+        },
+        {
+            "bin": "4205-30",
+            "description": "AEON"
+        },
+        {
+            "bin": "4220-00",
+            "description": "Life-ライフカード　ゴールド VISA"
+        },
+        {
+            "bin": "4220-02",
+            "description": "Life-ライフカード VISA"
+        },
+        {
+            "bin": "4505-90",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4216-14",
+            "description": "スルガVISAデビットカード (VISAデビット)"
+        },
+        {
+            "bin": "4216-15",
+            "description": "スルガVISAデビットカード (VISAデビット)"
+        },
+        {
+            "bin": "4259-55",
+            "description": "Banco BANTEC"
+        },
+        {
+            "bin": "4284-85",
+            "description": "Vプリカ （バーチャルVISAプリペイド）"
+        },
+        {
+            "bin": "4284-87",
+            "description": "NEO MONEY(セゾンVISAプリペイド)"
+        },
+        {
+            "bin": "4284-90",
+            "description": "ココカラクラブカード(VISAプリペイド)"
+        },
+        {
+            "bin": "4297-69",
+            "description": "楽天カード VISA"
+        },
+        {
+            "bin": "4297-70",
+            "description": "楽天プレミアム VISA"
+        },
+        {
+            "bin": "4311-26",
+            "description": "三井住友インターナショナルキャッシュカード"
+        },
+        {
+            "bin": "4323-71",
+            "description": "Wells Fargo Bank"
+        },
+        {
+            "bin": "4363-04",
+            "description": "SBIカードPlus Visa"
+        },
+        {
+            "bin": "4363-04",
+            "description": "ゲオPonta Visa"
+        },
+        {
+            "bin": "4384-00",
+            "description": "Banco BANTEC"
+        },
+        {
+            "bin": "4391-02",
+            "description": "東京三菱キャッシュカード<インターナショナル>"
+        },
+        {
+            "bin": "4470-57",
+            "description": "CALIFORNIA BANK & TRUST VISA"
+        },
+        {
+            "bin": "4525-81",
+            "description": "JACCS-VISA 一般"
+        },
+        {
+            "bin": "4525-82",
+            "description": "JACCS"
+        },
+        {
+            "bin": "4525-84",
+            "description": "JACCS VISA (TSUTAYA提携から切り替え)"
+        },
+        {
+            "bin": "4525-84",
+            "description": "JACCS REX CARD Lite"
+        },
+        {
+            "bin": "4525-85",
+            "description": "JACCS-横浜インビテーションカード-VISA"
+        },
+        {
+            "bin": "4525-90",
+            "description": "AEON-VISA"
+        },
+        {
+            "bin": "4531-38",
+            "description": "横浜銀行バンクカード(BC)-VISA"
+        },
+        {
+            "bin": "4531-77",
+            "description": "福岡銀行-Bank Card-VISA"
+        },
+        {
+            "bin": "4534-00",
+            "description": "DC カード GOLD"
+        },
+        {
+            "bin": "4534-12",
+            "description": "DC プロパーVISA (BTM引落)"
+        },
+        {
+            "bin": "4534-19",
+            "description": "DC-VISA"
+        },
+        {
+            "bin": "4534-22",
+            "description": "DC 早稲田 VISA"
+        },
+        {
+            "bin": "4534-26",
+            "description": "DC JAF VISA"
+        },
+        {
+            "bin": "4534-29",
+            "description": "DC-VISA 日専連"
+        },
+        {
+            "bin": "4534-36",
+            "description": "DC-VISA JAL"
+        },
+        {
+            "bin": "4534-38",
+            "description": "DC-ジザイル"
+        },
+        {
+            "bin": "4534-39",
+            "description": "DC MSNカード"
+        },
+        {
+            "bin": "4534-50",
+            "description": "DC-G-VISA"
+        },
+        {
+            "bin": "4534-50",
+            "description": "DC プロパー-VISA-Gold-VINGT (BTM引落)"
+        },
+        {
+            "bin": "4534-50",
+            "description": "DC-VISA JAL CLUB-A GOLD"
+        },
+        {
+            "bin": "4534-52",
+            "description": "DC 財団法人日本盲導犬協会カード 一般"
+        },
+        {
+            "bin": "4534-52",
+            "description": "DC NetMile VISA"
+        },
+        {
+            "bin": "4534-72",
+            "description": "ユピ JCB"
+        },
+        {
+            "bin": "4534-78",
+            "description": "DC ひろぎんDCカード"
+        },
+        {
+            "bin": "4534-86",
+            "description": "DC 第四銀行-DC-VISA 一般"
+        },
+        {
+            "bin": "4534-90",
+            "description": "DC 地銀DC ビジネスゴールド"
+        },
+        {
+            "bin": "4538-51",
+            "description": "NICOS VISA GOLD"
+        },
+        {
+            "bin": "4538-52",
+            "description": "NICOS VISA GOLD"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VISA Drivers EDGE"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VISA EDGE ON"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VISA ENEOSカード"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VISA"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VIASO VISA"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS-DoCoMo-VISA"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS ebank"
+        },
+        {
+            "bin": "4538-65",
+            "description": "NICOS VISAS synergy"
+        },
+        {
+            "bin": "4538-66",
+            "description": "NICOS"
+        },
+        {
+            "bin": "4538-68",
+            "description": "NICOS VISA Soo"
+        },
+        {
+            "bin": "4538-68",
+            "description": "NICOS VISA オードリー"
+        },
+        {
+            "bin": "4538-68",
+            "description": "NICOS VISA WOWOW ぴあ"
+        },
+        {
+            "bin": "4538-68",
+            "description": "NICOS VISA BRIDGESTONE CARLIFE SUPPORT CARD"
+        },
+        {
+            "bin": "4538-70",
+            "description": "NICOS VISA三菱地所グループ"
+        },
+        {
+            "bin": "4538-70",
+            "description": "NICOS VISA三菱地所グループ ゴールド"
+        },
+        {
+            "bin": "4538-87",
+            "description": "Yahoo! JAPAN VISA"
+        },
+        {
+            "bin": "4538-92",
+            "description": "ゆめカードVISA"
+        },
+        {
+            "bin": "4538-93",
+            "description": "GE-VISA (旧ジーシー発行)"
+        },
+        {
+            "bin": "4538-97",
+            "description": "髙島屋 VISA"
+        },
+        {
+            "bin": "4538-98",
+            "description": "APLUS chobirich card"
+        },
+        {
+            "bin": "4541-10",
+            "description": "SAISON 郵貯チェックカード《セゾン》(VISAチェック)"
+        },
+        {
+            "bin": "4541-10",
+            "description": "SAISON 三井アウトレットパークカード VISA"
+        },
+        {
+            "bin": "4541-10",
+            "description": "SAISON ローソンPontaカードVisa"
+        },
+        {
+            "bin": "4541-11",
+            "description": "SAISON LaOXメンバーズカード/VISA"
+        },
+        {
+            "bin": "4541-12",
+            "description": "SAISON MONEXVISA"
+        },
+        {
+            "bin": "4541-14",
+            "description": "SAISON-VISA　(池袋西武)"
+        },
+        {
+            "bin": "4541-15",
+            "description": "SAISON CLUB ONカード《セゾン》 VISA"
+        },
+        {
+            "bin": "4541-15",
+            "description": "SAISON MONEX VISA"
+        },
+        {
+            "bin": "4541-15",
+            "description": "SAISON 株主優待VISA"
+        },
+        {
+            "bin": "4541-17",
+            "description": "SAISON LAWSON PASS VISA"
+        },
+        {
+            "bin": "4541-22",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-23",
+            "description": "SAISON MONEX-VISA"
+        },
+        {
+            "bin": "4541-23",
+            "description": "SAISON 郵貯《セゾン》VISA"
+        },
+        {
+            "bin": "4541-24",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-25",
+            "description": "SAISON ゆうちょVISA"
+        },
+        {
+            "bin": "4541-30",
+            "description": "SAISON そごうミレニアム"
+        },
+        {
+            "bin": "4541-30",
+            "description": "SAISON クラブオンカード"
+        },
+        {
+            "bin": "4541-30",
+            "description": "SAISON-フォービート"
+        },
+        {
+            "bin": "4541-31",
+            "description": "SAISON 五番館 (北海道西武)"
+        },
+        {
+            "bin": "4541-31",
+            "description": "SAISON UA Airlines Mileage Plus"
+        },
+        {
+            "bin": "4541-32",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-33",
+            "description": "SAISON UA"
+        },
+        {
+            "bin": "4541-33",
+            "description": "SAISON 郵貯チェック"
+        },
+        {
+            "bin": "4541-40",
+            "description": "SAISON JAF《セゾン》VISA"
+        },
+        {
+            "bin": "4541-40",
+            "description": "SAISON-@nifty"
+        },
+        {
+            "bin": "4541-41",
+            "description": "SAISON-郵貯VISA"
+        },
+        {
+            "bin": "4541-41",
+            "description": "UC"
+        },
+        {
+            "bin": "4541-42",
+            "description": "SAISON-MONEX-VISA"
+        },
+        {
+            "bin": "4541-43",
+            "description": "SAISON-VISA"
+        },
+        {
+            "bin": "4541-50",
+            "description": "SAISON みずほマイレージクラブカードセゾンSuica"
+        },
+        {
+            "bin": "4541-51",
+            "description": "SAISON カードVISA・北海道西友"
+        },
+        {
+            "bin": "4541-51",
+            "description": "SAISON CLUB ON SAISONカードVISA"
+        },
+        {
+            "bin": "4541-52",
+            "description": "SAISON 郵貯《セゾン》VISA"
+        },
+        {
+            "bin": "4541-53",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-54",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-55",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-56",
+            "description": "SAISON visa"
+        },
+        {
+            "bin": "4541-58",
+            "description": "SAISON りそなカード セゾンVISA"
+        },
+        {
+            "bin": "4541-59",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-61",
+            "description": "SAISON-VISA"
+        },
+        {
+            "bin": "4541-65",
+            "description": "SAISON @nifty VISA"
+        },
+        {
+            "bin": "4541-66",
+            "description": "SAISON @nifty VISA"
+        },
+        {
+            "bin": "4541-66",
+            "description": "SAISON Microsoft VISA"
+        },
+        {
+            "bin": "4541-66",
+            "description": "SAISON VISA L.L.Bean Club"
+        },
+        {
+            "bin": "4541-67",
+            "description": "SAISON WOWOW-VISA"
+        },
+        {
+            "bin": "4541-71",
+            "description": "SAISON 郵貯VISA"
+        },
+        {
+            "bin": "4541-72",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-73",
+            "description": "SAISON"
+        },
+        {
+            "bin": "4541-90",
+            "description": "髙島屋 カード《ゴールド》"
+        },
+        {
+            "bin": "4541-96",
+            "description": "SAISON りそな SAISON VISA GOLD"
+        },
+        {
+            "bin": "4542-02",
+            "description": "イーバンクマネーカード CLASSIC (VISAデビット)"
+        },
+        {
+            "bin": "4542-03",
+            "description": "イーバンクマネーカード GOLD (VISAデビット)"
+        },
+        {
+            "bin": "4542-05",
+            "description": "りそなVISAデビットカード〈JMB〉 (VISAデビット)"
+        },
+        {
+            "bin": "4542-14",
+            "description": "UC みずほ-G VISA"
+        },
+        {
+            "bin": "4542-20",
+            "description": "UC WWF VISA"
+        },
+        {
+            "bin": "4542-20",
+            "description": "UC みずほ-VISA一般"
+        },
+        {
+            "bin": "4542-24",
+            "description": "UC-VISA JAF"
+        },
+        {
+            "bin": "4542-48",
+            "description": "UC-VISA 日産カード"
+        },
+        {
+            "bin": "4542-71",
+            "description": "UC-VISA りそな"
+        },
+        {
+            "bin": "4542-72",
+            "description": "UC"
+        },
+        {
+            "bin": "4542-73",
+            "description": "UC-VISA Honda C-card"
+        },
+        {
+            "bin": "4542-74",
+            "description": "UC-VISA Honda C-card (りそなカード)"
+        },
+        {
+            "bin": "4542-75",
+            "description": "UC-VISA DoCoMo"
+        },
+        {
+            "bin": "4542-75",
+            "description": "UC VISA みずほ"
+        },
+        {
+            "bin": "4542-75",
+            "description": "UC ビックカードインターナショナル"
+        },
+        {
+            "bin": "4542-85",
+            "description": "VIEW JR東日本"
+        },
+        {
+            "bin": "4542-85",
+            "description": "VIEW-VISA"
+        },
+        {
+            "bin": "4542-86",
+            "description": "VIEW-VISA"
+        },
+        {
+            "bin": "4542-86",
+            "description": "VIEW-VISA マイシティ新宿カード"
+        },
+        {
+            "bin": "4542-87",
+            "description": "VIEW-Suica-VISA LUMINE"
+        },
+        {
+            "bin": "4542-87",
+            "description": "VIEW Mizuho Suica"
+        },
+        {
+            "bin": "4542-87",
+            "description": "VIEW Suica VISA"
+        },
+        {
+            "bin": "4542-87",
+            "description": "VIEW アトレクラブビューSuicaカード"
+        },
+        {
+            "bin": "4542-87",
+            "description": "VIEW weビュー・スイカカード"
+        },
+        {
+            "bin": "4543-25",
+            "description": "ＲＯＰ質金Ｖ(タイ)"
+        },
+        {
+            "bin": "4543-81",
+            "description": "東急TOP&-VISA"
+        },
+        {
+            "bin": "4543-82",
+            "description": "東急TOP&-VISA"
+        },
+        {
+            "bin": "4543-83",
+            "description": "東急TOP&-VISA"
+        },
+        {
+            "bin": "4566-00",
+            "description": "MUFG-VISA"
+        },
+        {
+            "bin": "4566-05",
+            "description": "UFJ Card プレミオVISA"
+        },
+        {
+            "bin": "4566-05",
+            "description": "UFJ ワンパスVISA"
+        },
+        {
+            "bin": "4566-33",
+            "description": "MUFGカード ゴールド"
+        },
+        {
+            "bin": "4566-96",
+            "description": "セディナ CF GOLD-VISA"
+        },
+        {
+            "bin": "4575-56",
+            "description": "able"
+        },
+        {
+            "bin": "4685-12",
+            "description": "TS3 CUBIC レクサスカード VISA Platinum"
+        },
+        {
+            "bin": "4685-17",
+            "description": "TS3-VISA teamTOYOTA"
+        },
+        {
+            "bin": "4691-10",
+            "description": "ISETAN-ICARD VISA"
+        },
+        {
+            "bin": "4691-10",
+            "description": "meitetsu-ICARD VISA"
+        },
+        {
+            "bin": "4700-86",
+            "description": "大丸お得意様ゴールドカード(ハウス・11桁)"
+        },
+        {
+            "bin": "4708-01",
+            "description": "中国銀行DREAMe W VISA"
+        },
+        {
+            "bin": "4708-06",
+            "description": "横浜バンクカード Suicaゴールド"
+        },
+        {
+            "bin": "4708-06",
+            "description": "横浜バンクカード Suicaヤングゴールド"
+        },
+        {
+            "bin": "4708-07",
+            "description": "横浜バンクカード Suica"
+        },
+        {
+            "bin": "4708-35",
+            "description": "TOMIN CLUB CARD VISA（東京都民銀行）"
+        },
+        {
+            "bin": "4708-36",
+            "description": "天満屋カード VISA"
+        },
+        {
+            "bin": "4708-91",
+            "description": "ゆうちょ銀行"
+        },
+        {
+            "bin": "4730-63",
+            "description": "CALIFORNIA BANK & TRUST (キャッシュカード・VISAデビット)"
+        },
+        {
+            "bin": "4897-83",
+            "description": "EPOS VISA"
+        },
+        {
+            "bin": "4897-84",
+            "description": "EPOS デザインカード"
+        },
+        {
+            "bin": "4897-84",
+            "description": "EPOS SHIDAX"
+        },
+        {
+            "bin": "4897-85",
+            "description": "EPOS バーチャルカード"
+        },
+        {
+            "bin": "4897-88",
+            "description": "EPOS ゴールドカード"
+        },
+        {
+            "bin": "4897-89",
+            "description": "EPOS プラチナカード"
+        },
+        {
+            "bin": "4901-15",
+            "description": "NW-CITI-VISA-Gold"
+        },
+        {
+            "bin": "4901-20",
+            "description": "セディナ OMC-VISA"
+        },
+        {
+            "bin": "4901-21",
+            "description": "セディナ OMC-VISA"
+        },
+        {
+            "bin": "4901-29",
+            "description": "セディナ OMC GOLD VISA"
+        },
+        {
+            "bin": "4901-29",
+            "description": "セディナ OMC-VISA"
+        },
+        {
+            "bin": "4906-43",
+            "description": "三菱東京UFJ VISA GOLD PREMIUM"
+        },
+        {
+            "bin": "4906-46",
+            "description": "三菱東京UFJ"
+        },
+        {
+            "bin": "4906-47",
+            "description": "三菱東京UFJ"
+        },
+        {
+            "bin": "4907-14",
+            "description": "Citi-VISA NW"
+        },
+        {
+            "bin": "4907-14",
+            "description": "WQ"
+        },
+        {
+            "bin": "4907-14",
+            "description": "Citi-VISA student"
+        },
+        {
+            "bin": "4907-14",
+            "description": "Citi-VISA Amazonクレジットカード"
+        },
+        {
+            "bin": "4907-14",
+            "description": "Citi クラシック(A) VISA"
+        },
+        {
+            "bin": "4907-15",
+            "description": "NWA-Citi-WorldPerks-VISA-Gold"
+        },
+        {
+            "bin": "4907-15",
+            "description": "Citi VISA"
+        },
+        {
+            "bin": "4907-15",
+            "description": "Citi VISA ELITE"
+        },
+        {
+            "bin": "4922-30",
+            "description": "Citi VISA PLATINUM"
+        },
+        {
+            "bin": "4922-30",
+            "description": "Citi-VISA NW-CITI-VISA-Plt"
+        },
+        {
+            "bin": "4922-31",
+            "description": "NTTグループカード-VISA"
+        },
+        {
+            "bin": "4922-32",
+            "description": "七十七カード VISA"
+        },
+        {
+            "bin": "4922-33",
+            "description": "七十七カード VISAゴールド"
+        },
+        {
+            "bin": "4922-42",
+            "description": "さぎんモテカカード VISA"
+        },
+        {
+            "bin": "4922-53",
+            "description": "北国VISA カード"
+        },
+        {
+            "bin": "4922-54",
+            "description": "東京VISA"
+        },
+        {
+            "bin": "4922-55",
+            "description": "東京VISA GOLD"
+        },
+        {
+            "bin": "4922-56",
+            "description": "北国VISA ゴールド"
+        },
+        {
+            "bin": "4922-57",
+            "description": "群銀カード VISA"
+        },
+        {
+            "bin": "4922-58",
+            "description": "群銀カード VISAゴールド"
+        },
+        {
+            "bin": "4922-59",
+            "description": "三重銀カード VISA"
+        },
+        {
+            "bin": "4922-60",
+            "description": "三重銀カード VISAゴールド"
+        },
+        {
+            "bin": "4922-67",
+            "description": "住信VISA"
+        },
+        {
+            "bin": "4922-68",
+            "description": "住信VISA ゴールドカード"
+        },
+        {
+            "bin": "4922-68",
+            "description": "住信ロードサービスVISA-G"
+        },
+        {
+            "bin": "4922-69",
+            "description": "あさひVISA"
+        },
+        {
+            "bin": "4922-69",
+            "description": "あさひデルタVISA"
+        },
+        {
+            "bin": "4922-69",
+            "description": "りそな-VISA とらのあな"
+        },
+        {
+            "bin": "4922-69",
+            "description": "りそな"
+        },
+        {
+            "bin": "4922-69",
+            "description": "りそな　東横イン４＆５"
+        },
+        {
+            "bin": "4922-71",
+            "description": "りそな"
+        },
+        {
+            "bin": "4922-71",
+            "description": "りそな 早稲田ゴールドカードAlumni"
+        },
+        {
+            "bin": "4922-73",
+            "description": "やまぎんクレジットVISAゴールド"
+        },
+        {
+            "bin": "4922-78",
+            "description": "信金VISA"
+        },
+        {
+            "bin": "4922-85",
+            "description": "道銀カード 道銀ＶＩＳＡカード"
+        },
+        {
+            "bin": "4922-86",
+            "description": "道銀カード 道銀ＶＩＳＡゴールドカード"
+        },
+        {
+            "bin": "4922-87",
+            "description": "福岡銀行 arecore-VISA"
+        },
+        {
+            "bin": "4923-13",
+            "description": "NICOS-VISA"
+        },
+        {
+            "bin": "4923-13",
+            "description": "NICOS 郵貯VISA"
+        },
+        {
+            "bin": "4923-13",
+            "description": "NICOS VISA さくらや"
+        },
+        {
+            "bin": "4923-13",
+            "description": "NICOS 国際ボランティア貯金カード-VISA"
+        },
+        {
+            "bin": "4923-14",
+            "description": "NICOS-VISA(ncom)"
+        },
+        {
+            "bin": "4923-39",
+            "description": "全日鰤"
+        },
+        {
+            "bin": "4923-41",
+            "description": "NICOS VISA ぴあ"
+        },
+        {
+            "bin": "4923-43",
+            "description": "NICOS VISA"
+        },
+        {
+            "bin": "4923-44",
+            "description": "NICOS VISA"
+        },
+        {
+            "bin": "4923-46",
+            "description": "NICOS VISA(ぴあ)"
+        },
+        {
+            "bin": "4923-46",
+            "description": "NICOS 郵貯ジョイントカード-VISA"
+        },
+        {
+            "bin": "4923-58",
+            "description": "LIFE-VISA"
+        },
+        {
+            "bin": "4923-80",
+            "description": "NICOS-VISA It'sカード"
+        },
+        {
+            "bin": "4923-86",
+            "description": "NICOS-VISA 郵貯ジョイントカード"
+        },
+        {
+            "bin": "4923-87",
+            "description": "NICOS ぴあカード"
+        },
+        {
+            "bin": "4923-90",
+            "description": "NICOS VISA Ena"
+        },
+        {
+            "bin": "4923-91",
+            "description": "NICOS VISA 昭和シェル X-CARD"
+        },
+        {
+            "bin": "4937-95",
+            "description": "Orico @niftyパワーオリコ VISA"
+        },
+        {
+            "bin": "4937-95",
+            "description": "Orico VISA"
+        },
+        {
+            "bin": "4937-95",
+            "description": "Orico コジマ"
+        },
+        {
+            "bin": "4961-12",
+            "description": "ヨドバシゴールドポイントIC eLIO VISA"
+        },
+        {
+            "bin": "4980-00",
+            "description": "SMC"
+        },
+        {
+            "bin": "4980-00",
+            "description": "SMC ANA VISA G"
+        },
+        {
+            "bin": "4980-00",
+            "description": "SMC ANA Super Flyers Card VISA GOLD"
+        },
+        {
+            "bin": "4980-00",
+            "description": "SMC ヒルトンHオナーズ VISA GOLD"
+        },
+        {
+            "bin": "4980-00",
+            "description": "Panasonic-VISA"
+        },
+        {
+            "bin": "4980-00",
+            "description": "SMC-VISA-GOLD"
+        },
+        {
+            "bin": "4980-00",
+            "description": "三井住友 ＶＩＳＡゴールド(ヤング)"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-VISA-Tuo"
+        },
+        {
+            "bin": "4980-01",
+            "description": "ANA elio-VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-VISA JNB"
+        },
+        {
+            "bin": "4980-01",
+            "description": "My Sony Card"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SFC-ANA-VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SFC-VISA(plalaカード)"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMBC ANA-VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC unicef VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-ANA-VISA-St"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-ANA-VISA-Suica"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-VISA クラシックA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "ソニーファイナンス BeneficioCard (elio 企業提携)"
+        },
+        {
+            "bin": "4980-01",
+            "description": "ソニーファイナンス丸の内VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "慶應カード -st"
+        },
+        {
+            "bin": "4980-01",
+            "description": "GOLD POINT CARD + VISA"
+        },
+        {
+            "bin": "4980-01",
+            "description": "SMC-ALPS VISA (地方公務員等ライフプラン協会)"
+        },
+        {
+            "bin": "4980-03",
+            "description": "SMC-VISA"
+        },
+        {
+            "bin": "4980-03",
+            "description": "SMCクラシックA(学生)-VISA"
+        },
+        {
+            "bin": "4980-03",
+            "description": "三井住友VISA miniクラシックカード"
+        },
+        {
+            "bin": "4980-03",
+            "description": "三井住友VISAクラシック"
+        },
+        {
+            "bin": "4980-05",
+            "description": "三井住友 MJC-VISA"
+        },
+        {
+            "bin": "4980-05",
+            "description": "NKLDSAJK"
+        },
+        {
+            "bin": "4980-05",
+            "description": "楽天カードーVISA"
+        },
+        {
+            "bin": "4980-05",
+            "description": "三井住友VISAッピ"
+        },
+        {
+            "bin": "4980-05",
+            "description": "三井住友VISAワンダー"
+        },
+        {
+            "bin": "4980-05",
+            "description": "三井住友カード/MJC"
+        },
+        {
+            "bin": "4980-05",
+            "description": "三越VISA"
+        },
+        {
+            "bin": "4980-05",
+            "description": "ラブプラスvisaカード"
+        },
+        {
+            "bin": "4980-05",
+            "description": "アイマスVISAカード"
+        },
+        {
+            "bin": "4980-06",
+            "description": "三井住友 HANA PLUS VISA"
+        },
+        {
+            "bin": "4980-07",
+            "description": "DCMX VISA"
+        },
+        {
+            "bin": "4980-11",
+            "description": "SMC VISA Platinum"
+        },
+        {
+            "bin": "4980-13",
+            "description": "JFR DAIMARU VISA"
+        },
+        {
+            "bin": "4980-20",
+            "description": "三井住友VISAビジネスカードGOLD"
+        },
+        {
+            "bin": "4980-22",
+            "description": "SMC-VISA CORPORATE"
+        },
+        {
+            "bin": "4980-36",
+            "description": "九州カード"
+        },
+        {
+            "bin": "4980-37",
+            "description": "九州カード 九州VISAカード"
+        },
+        {
+            "bin": "4980-60",
+            "description": "NC北海専門店会　VISA"
+        },
+        {
+            "bin": "4980-61",
+            "description": "GECF-VISA"
+        },
+        {
+            "bin": "4980-61",
+            "description": "GECF-VISA JARL CARD/SMBC発行"
+        },
+        {
+            "bin": "4980-61",
+            "description": "NCおびひろ VISA"
+        },
+        {
+            "bin": "4980-61",
+            "description": "第一信販NC VISA"
+        },
+        {
+            "bin": "4980-62",
+            "description": "NCとまこまい"
+        },
+        {
+            "bin": "4980-62",
+            "description": "札幌信用販売　VISA"
+        },
+        {
+            "bin": "4980-66",
+            "description": "イズミヤVISAカード"
+        },
+        {
+            "bin": "4980-66",
+            "description": "ポケット"
+        },
+        {
+            "bin": "4980-66",
+            "description": "マイカルVISA"
+        },
+        {
+            "bin": "4980-66",
+            "description": "住商カード"
+        },
+        {
+            "bin": "4980-73",
+            "description": "九州カード 提携"
+        },
+        {
+            "bin": "4980-73",
+            "description": "九州カード バーチャルカード"
+        },
+        {
+            "bin": "4980-74",
+            "description": "九州カード 提携　ゴールド"
+        },
+        {
+            "bin": "4980-75",
+            "description": "visacard"
+        },
+        {
+            "bin": "4980-75",
+            "description": "しんきんクレジットサービス　ロードサービスビザ"
+        },
+        {
+            "bin": "4986-11",
+            "description": "イトーヨーカドーVISA"
+        },
+        {
+            "bin": "4986-12",
+            "description": "セブンカードVISA"
+        },
+        {
+            "bin": "4986-31",
+            "description": "UFJ-VISA DoCoMo"
+        },
+        {
+            "bin": "4986-31",
+            "description": "UFJ-VISA auじぶん"
+        },
+        {
+            "bin": "4986-32",
+            "description": "UFJ-VISA APA-JRA"
+        },
+        {
+            "bin": "4986-32",
+            "description": "UFJ-VISA"
+        },
+        {
+            "bin": "4986-32",
+            "description": "UFJ-VISA K-power"
+        },
+        {
+            "bin": "4986-32",
+            "description": "UFJオールワン一体型"
+        },
+        {
+            "bin": "4986-32",
+            "description": "UFJ-VISA スカイマーク"
+        },
+        {
+            "bin": "4986-51",
+            "description": "UFJ-FinancialOne-VISA"
+        },
+        {
+            "bin": "4986-58",
+            "description": "UFJ VISA J-WEST"
+        },
+        {
+            "bin": "4986-60",
+            "description": "UFJ"
+        },
+        {
+            "bin": "4986-94",
+            "description": "セディナ CF-VISA"
+        },
+        {
+            "bin": "4986-94",
+            "description": "JR東海エクスプレス・カード（Visa）"
+        },
+        {
+            "bin": "4986-94",
+            "description": "セディナ EXPOエコマネーグリーンカード"
+        }
+    ],
+    "5-Banking and financial": [
+        {
+            "bin": "5010-90",
+            "description": "東急TOP ホワイト"
+        },
+        {
+            "bin": "5010-91",
+            "description": "東急TOP (ハウス)"
+        },
+        {
+            "bin": "5010-98",
+            "description": "東急TOP QPoint"
+        },
+        {
+            "bin": "5045-72",
+            "description": "みずほ銀行(旧)エムタウン支店・インターナショナルキャッシュカード(Cirrus提携)"
+        },
+        {
+            "bin": "5127-80",
+            "description": "SBI"
+        },
+        {
+            "bin": "5166-45",
+            "description": "au Wallet/WebMoney Card"
+        },
+        {
+            "bin": "5178-95",
+            "description": "City National Bank of West Virginia - Gold Debit Matercard"
+        },
+        {
+            "bin": "5183-80",
+            "description": "セディナ クオーク-マスター"
+        },
+        {
+            "bin": "5186-91",
+            "description": "アイフル e-まちタウンPPC MasterCard"
+        },
+        {
+            "bin": "5201-75",
+            "description": "東☆マスター"
+        },
+        {
+            "bin": "5208-09",
+            "description": "UFJ-Financial One-MasterCard"
+        },
+        {
+            "bin": "5208-09",
+            "description": "UFJ 一般マスター"
+        },
+        {
+            "bin": "5208-09",
+            "description": "UFJ スカイマーク　Master"
+        },
+        {
+            "bin": "5208-31",
+            "description": "UFJ DoCoMo UFJ Card Master"
+        },
+        {
+            "bin": "5208-40",
+            "description": "UCS-MasterCard(一般)"
+        },
+        {
+            "bin": "5208-48",
+            "description": "UFJ マスター"
+        },
+        {
+            "bin": "5208-49",
+            "description": "UFJ vodafone card 東海"
+        },
+        {
+            "bin": "5208-58",
+            "description": "J-WEST エクスプレスMaster"
+        },
+        {
+            "bin": "5208-58",
+            "description": "J-WEST ベーシックMaster"
+        },
+        {
+            "bin": "5208-82",
+            "description": "UCS enta Master"
+        },
+        {
+            "bin": "5208-82",
+            "description": "UCS-MasterCard(ゴールド)"
+        },
+        {
+            "bin": "5210-01",
+            "description": "KCカード Master"
+        },
+        {
+            "bin": "5210-12",
+            "description": "楽天カード Master"
+        },
+        {
+            "bin": "5210-15",
+            "description": "楽天カード"
+        },
+        {
+            "bin": "5210-16",
+            "description": "楽天カード Master"
+        },
+        {
+            "bin": "5214-65",
+            "description": "NICOS ENEOS-MASTER"
+        },
+        {
+            "bin": "5214-87",
+            "description": "Yahoo! JAPAN Master"
+        },
+        {
+            "bin": "5214-88",
+            "description": "ゆめカード youme-Master"
+        },
+        {
+            "bin": "5214-98",
+            "description": "Aplus Master Smile Personal"
+        },
+        {
+            "bin": "5219-00",
+            "description": "セディナ CF-マスター"
+        },
+        {
+            "bin": "5219-00",
+            "description": "JR東海エクスプレス・カード（MasterCard）"
+        },
+        {
+            "bin": "5219-13",
+            "description": "セディナ CF-ブリジストン　マスター"
+        },
+        {
+            "bin": "5219-15",
+            "description": "セディナ CF-Naster(JR東海EXPRESS CARD)"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-Master FORCEA"
+        },
+        {
+            "bin": "5248-05",
+            "description": "ORICO-HUKU2PLUSカード"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-(ナジャヴ倶楽部)-MASTER"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-@nifty-Master"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-Animate-Master"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico 鱒 TIPNESS"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico Yahoo!Japan-Master"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico iGold Master"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico 暮らしの森アスクラスゴールド Master"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico クラブアライアンス"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico サンカード"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-Master フタバファースト"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico-Master 鰤"
+        },
+        {
+            "bin": "5248-05",
+            "description": "Orico Skywalker(HIS)Gold CARD"
+        },
+        {
+            "bin": "5248-06",
+            "description": "Orico Gold Master Card UPty"
+        },
+        {
+            "bin": "5248-06",
+            "description": "Orico MasterCard UPty"
+        },
+        {
+            "bin": "5248-06",
+            "description": "Orico らき☆すたMasterCard UPty"
+        },
+        {
+            "bin": "5248-06",
+            "description": "Orico 魔法少女まどか☆マギカ MasterCard UPty"
+        },
+        {
+            "bin": "5250-03",
+            "description": "UC MIZUHO GOLD"
+        },
+        {
+            "bin": "5250-06",
+            "description": "UC-Master YamahaFeelingClub"
+        },
+        {
+            "bin": "5250-14",
+            "description": "UC Master Gold"
+        },
+        {
+            "bin": "5250-14",
+            "description": "UC JR UC BUSINESS Gold"
+        },
+        {
+            "bin": "5250-22",
+            "description": "UC mizuho master"
+        },
+        {
+            "bin": "5250-35",
+            "description": "UC-Master Gold(みずほマイレージ)"
+        },
+        {
+            "bin": "5250-36",
+            "description": "UC-Master(みずほマイレージ)"
+        },
+        {
+            "bin": "5250-36",
+            "description": "Mizuho Mileage Club (SELECT)"
+        },
+        {
+            "bin": "5250-48",
+            "description": "NISSAN CARD　MASTER"
+        },
+        {
+            "bin": "5250-48",
+            "description": "UC マスター"
+        },
+        {
+            "bin": "5250-69",
+            "description": "UC Master JTB"
+        },
+        {
+            "bin": "5250-71",
+            "description": "UC Master @nifty"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master DoCoMo"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master MIZUHO UC select"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC WWFセレクト MASTER"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master トランスルーセント"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master みずほ"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master biccard-international"
+        },
+        {
+            "bin": "5250-72",
+            "description": "銀座牛鱒"
+        },
+        {
+            "bin": "5250-72",
+            "description": "UC Master 三越"
+        },
+        {
+            "bin": "5250-73",
+            "description": "UC マイレージプラスセレクト・マスター"
+        },
+        {
+            "bin": "5250-87",
+            "description": "VIEW-Master LUMINE"
+        },
+        {
+            "bin": "5250-87",
+            "description": "VIEW Suica MasterCard"
+        },
+        {
+            "bin": "5251-13",
+            "description": "NICOS MASTER ぴあ"
+        },
+        {
+            "bin": "5251-13",
+            "description": "NICOS-MASTER-CAMPUS"
+        },
+        {
+            "bin": "5252-10",
+            "description": "SAISON Master"
+        },
+        {
+            "bin": "5252-10",
+            "description": "SAISON UAカレッジ"
+        },
+        {
+            "bin": "5252-12",
+            "description": "SAISON Master"
+        },
+        {
+            "bin": "5252-14",
+            "description": "SAISON UA Master"
+        },
+        {
+            "bin": "5252-15",
+            "description": "SAISON"
+        },
+        {
+            "bin": "5252-15",
+            "description": "SAISON-MASTER"
+        },
+        {
+            "bin": "5252-15",
+            "description": "SAISON クラブオン・セゾン Master"
+        },
+        {
+            "bin": "5252-24",
+            "description": "SAISON -Master"
+        },
+        {
+            "bin": "5252-31",
+            "description": "SAISON Master"
+        },
+        {
+            "bin": "5252-36",
+            "description": "SAISON"
+        },
+        {
+            "bin": "5252-40",
+            "description": "SAISON Master Mitsui Outlet Park"
+        },
+        {
+            "bin": "5252-59",
+            "description": "SAISON 出光 mydo plus Master"
+        },
+        {
+            "bin": "5252-65",
+            "description": "SAISON Master Vodafone"
+        },
+        {
+            "bin": "5252-65",
+            "description": "SAISON UA 一般"
+        },
+        {
+            "bin": "5252-90",
+            "description": "SAISON Master UA カード ゴールド"
+        },
+        {
+            "bin": "5252-91",
+            "description": "SAISON-MASTER SOGO-Millennium-GOLD"
+        },
+        {
+            "bin": "5257-01",
+            "description": "OMC-Mastercard"
+        },
+        {
+            "bin": "5279-16",
+            "description": "東急TOP& GOLD DC Master"
+        },
+        {
+            "bin": "5279-16",
+            "description": "東急TOP& DC Master"
+        },
+        {
+            "bin": "5279-18",
+            "description": "東急TOP& GRANDBERRY DC Master"
+        },
+        {
+            "bin": "5279-18",
+            "description": "東急TOP& TOKYU PLAZA CARD プラザプラス Master"
+        },
+        {
+            "bin": "5279-34",
+            "description": "DC JALCard Master CLUB-A"
+        },
+        {
+            "bin": "5279-34",
+            "description": "DC JALCard Master 一般"
+        },
+        {
+            "bin": "5279-35",
+            "description": "DC Master GOLD"
+        },
+        {
+            "bin": "5279-39",
+            "description": "DC-Master クラブドンペンカード"
+        },
+        {
+            "bin": "5279-42",
+            "description": "DC マスターカード 東京海上"
+        },
+        {
+            "bin": "5279-51",
+            "description": "DC GONZO Master GOLD"
+        },
+        {
+            "bin": "5279-51",
+            "description": "DC Master JAL CLUB-A Gold"
+        },
+        {
+            "bin": "5279-51",
+            "description": "DC Master JGC CLUB-A Gold"
+        },
+        {
+            "bin": "5279-51",
+            "description": "DC Master 日本盲導犬協会カード Gold"
+        },
+        {
+            "bin": "5279-70",
+            "description": "DC"
+        },
+        {
+            "bin": "5283-71",
+            "description": "DoCoMo NTT-L Master"
+        },
+        {
+            "bin": "5283-71",
+            "description": "UC Master SCENE (NTT-L)"
+        },
+        {
+            "bin": "5283-71",
+            "description": "UC ちば興銀"
+        },
+        {
+            "bin": "5283-71",
+            "description": "UC りそなカード Master"
+        },
+        {
+            "bin": "5283-88",
+            "description": "旧山一證券一般 (廃業によりUC直轄に移管)"
+        },
+        {
+            "bin": "5285-77",
+            "description": "ふくぎん BANK CARD Master"
+        },
+        {
+            "bin": "5296-00",
+            "description": "MUFG-Master"
+        },
+        {
+            "bin": "5296-05",
+            "description": "UFJ プレミオカード"
+        },
+        {
+            "bin": "5296-59",
+            "description": "HSBC PREMIER (World)"
+        },
+        {
+            "bin": "5302-30",
+            "description": "三井住友 MasterCard GOLD"
+        },
+        {
+            "bin": "5302-31",
+            "description": "SMC MasterGold Platinum"
+        },
+        {
+            "bin": "5302-32",
+            "description": "SMC ANA Master Gold"
+        },
+        {
+            "bin": "5302-58",
+            "description": "さぎんモテカカードMasterゴールド"
+        },
+        {
+            "bin": "5306-60",
+            "description": "りそな　OMNI-master"
+        },
+        {
+            "bin": "5312-80",
+            "description": "イオン"
+        },
+        {
+            "bin": "5312-81",
+            "description": "イオン"
+        },
+        {
+            "bin": "5312-82",
+            "description": "イオン"
+        },
+        {
+            "bin": "5312-83",
+            "description": "イオン"
+        },
+        {
+            "bin": "5312-84",
+            "description": "イオン Master"
+        },
+        {
+            "bin": "5312-86",
+            "description": "イオン"
+        },
+        {
+            "bin": "5312-89",
+            "description": "イオン MJC-AEON-Master"
+        },
+        {
+            "bin": "5312-89",
+            "description": "イオン I love 代官山"
+        },
+        {
+            "bin": "5312-91",
+            "description": "JACCS カード-Master"
+        },
+        {
+            "bin": "5312-91",
+            "description": "JACCS ゴールドカード-Master"
+        },
+        {
+            "bin": "5312-91",
+            "description": "JACCS 北海道日本ハムファイターズFCカード-Master"
+        },
+        {
+            "bin": "5312-91",
+            "description": "JACCS Sofmap"
+        },
+        {
+            "bin": "5312-92",
+            "description": "JACCS"
+        },
+        {
+            "bin": "5312-93",
+            "description": "JACCS-コジマカード"
+        },
+        {
+            "bin": "5321-71",
+            "description": "JTB-master"
+        },
+        {
+            "bin": "5334-90",
+            "description": "SMC-Master クラシックA"
+        },
+        {
+            "bin": "5334-91",
+            "description": "SMC-ANA-Master 学生カード"
+        },
+        {
+            "bin": "5334-91",
+            "description": "SMC-ANA-Master 一般"
+        },
+        {
+            "bin": "5334-91",
+            "description": "SMC-パスタウンMASTER"
+        },
+        {
+            "bin": "5334-91",
+            "description": "SMC-ALPS VISA (地方公務員等ライフプラン協会)"
+        },
+        {
+            "bin": "5334-94",
+            "description": "SMC-ANA-MASTER"
+        },
+        {
+            "bin": "5334-96",
+            "description": "SMC-Master"
+        },
+        {
+            "bin": "5406-01",
+            "description": "CITIBANK GOLD"
+        },
+        {
+            "bin": "5409-97",
+            "description": "UNION BANK OF CALIFORNIA (Masterデビット)"
+        },
+        {
+            "bin": "5412-75",
+            "description": "JACCS-YOSAKOI NET CARD"
+        },
+        {
+            "bin": "5434-72",
+            "description": "DC りゅうぎんDCパートナーVISA"
+        },
+        {
+            "bin": "5436-16",
+            "description": "アコム-Master"
+        },
+        {
+            "bin": "5438-16",
+            "description": "武富士 マスター"
+        },
+        {
+            "bin": "5438-17",
+            "description": "Citi クリア-Master"
+        },
+        {
+            "bin": "5442-51",
+            "description": "ポケットカード くらしらくカード Master"
+        },
+        {
+            "bin": "5442-54",
+            "description": "ポケットカード Master"
+        },
+        {
+            "bin": "5442-54",
+            "description": "ポケットカード Masterイエロー"
+        },
+        {
+            "bin": "5442-54",
+            "description": "マイカルブルー MasterCard"
+        },
+        {
+            "bin": "5442-54",
+            "description": "ポケットカード P-one card Master"
+        },
+        {
+            "bin": "5452-85",
+            "description": "Life AOYAMA CARD)"
+        },
+        {
+            "bin": "5452-85",
+            "description": "Life 踊る大走査線 マスターカード"
+        },
+        {
+            "bin": "5452-85",
+            "description": "Life-Master"
+        },
+        {
+            "bin": "5578-51",
+            "description": "TS3-M-G"
+        },
+        {
+            "bin": "5578-52",
+            "description": "TS3 カード［ビジネス］MASTER 一般"
+        },
+        {
+            "bin": "5610-18",
+            "description": "Sonybank Moneykitグローバル (JPモルガンチェース提携)"
+        },
+        {
+            "bin": "5889-02",
+            "description": "Citi Bank cash card"
+        }
+    ],
+    "6-Merchandizing and banking": [
+        {
+            "bin": "6000-53",
+            "description": "えらべる倶楽部 クレ無 (JTBベネフィット福利厚生)"
+        },
+        {
+            "bin": "6101-90",
+            "description": "JTB TRAVEL POINT CARD"
+        },
+        {
+            "bin": "6229-20",
+            "description": "三井住友銀聯"
+        },
+        {
+            "bin": "6502-30",
+            "description": "東急TOP (現金専用)"
+        },
+        {
+            "bin": "6900-05",
+            "description": "TS3 TRBM (国際ブランド無しハウスカード)"
+        },
+        {
+            "bin": "6900-07",
+            "description": "PiTaPa ベーシック"
+        },
+        {
+            "bin": "6900-11",
+            "description": "三井住友カードiD"
+        },
+        {
+            "bin": "6900-11",
+            "description": "DCMX mini"
+        },
+        {
+            "bin": "6901-01",
+            "description": "丸井の赤いカード"
+        },
+        {
+            "bin": "6911-00",
+            "description": "伊勢丹 アイカード"
+        },
+        {
+            "bin": "6911-31",
+            "description": "高島屋友の会 (ローズサークル)"
+        },
+        {
+            "bin": "6922-00",
+            "description": "高島屋 ゴールドカード"
+        },
+        {
+            "bin": "6229-20",
+            "description": "三井住友銀聯カード"
+        },
+        {
+            "bin": "6930-50",
+            "description": "イオンプロパー"
+        },
+        {
+            "bin": "6950-01",
+            "description": "日経BP NICOS"
+        },
+        {
+            "bin": "6950-02",
+            "description": "NICOS プロパー国内専用"
+        },
+        {
+            "bin": "6950-02",
+            "description": "NICOS-JRA"
+        },
+        {
+            "bin": "6950-17",
+            "description": "エネオス・ニコス"
+        },
+        {
+            "bin": "6950-17",
+            "description": "ニコス"
+        },
+        {
+            "bin": "6950-20",
+            "description": "NICOS スマートプラス (カード型)"
+        },
+        {
+            "bin": "6991-10",
+            "description": "JACCS-Club Endeavor"
+        },
+        {
+            "bin": "6998-76",
+            "description": "MLカード"
+        }
+    ],
+    "7-Petroleum": [
+        {
+            "bin": "7000-00",
+            "description": "JCB ETC する～カード"
+        },
+        {
+            "bin": "7060-21",
+            "description": "ライフ ETCカード"
+        },
+        {
+            "bin": "7060-80",
+            "description": "JACCS ETCカード"
+        },
+        {
+            "bin": "7061-80",
+            "description": "GE CARD ETC"
+        },
+        {
+            "bin": "7070-20",
+            "description": "ポケットカード ETC"
+        },
+        {
+            "bin": "7200-11",
+            "description": "NICOS ETC-Plus (親カード NICOS VISA)"
+        },
+        {
+            "bin": "7250-30",
+            "description": "you me ETC card"
+        },
+        {
+            "bin": "7500-00",
+            "description": "JCB EXXONMOBILL Corporate Plus"
+        },
+        {
+            "bin": "7611-27",
+            "description": "AEON ETCカード"
+        },
+        {
+            "bin": "7800-01",
+            "description": "三井住友カード ETCカード"
+        },
+        {
+            "bin": "7800-16",
+            "description": "りそなカード ETC"
+        }
+    ],
+    "8-Telecommunications and other industry assignments": [
+        {
+            "bin": "8001-02",
+            "description": "日産カード(ハウス)"
+        },
+        {
+            "bin": "8003-75",
+            "description": "UC ETCカード"
+        },
+        {
+            "bin": "8300-88",
+            "description": "Exon Mobile (親カード JCB)"
+        },
+        {
+            "bin": "8401-00",
+            "description": "UFJ ETCカード"
+        },
+        {
+            "bin": "8500-30",
+            "description": "JCB"
+        },
+        {
+            "bin": "8601-00",
+            "description": "SAISON ETCカード"
+        },
+        {
+            "bin": "8612-00",
+            "description": "SAISON ETCカード"
+        },
+        {
+            "bin": "8800-12",
+            "description": "ETC-OMC(親カード関係なし)"
+        }
+    ],
+    "9-National assignment": [
+        {
+            "bin": "9005-00",
+            "description": "Citi ETC CARD"
+        },
+        {
+            "bin": "9100-00",
+            "description": "Orico ETCカード"
+        },
+        {
+            "bin": "9300-00",
+            "description": "CF ETC"
+        }
+    ]
+}

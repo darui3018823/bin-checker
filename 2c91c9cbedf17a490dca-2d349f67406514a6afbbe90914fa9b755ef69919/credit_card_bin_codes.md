@@ -1,0 +1,842 @@
+# 概要
+
+クレジットカード番号には法則があり、先頭6桁でカードの種類を識別、分類することができる。
+
+詳細はISO/IEC 7812で規定されている。
+
+ISO/IEC 7812 - Wikipedia
+https://ja.wikipedia.org/wiki/ISO/IEC_7812
+
+先頭の6桁を銀行識別番号（Bank Identification Number、略称:BIN）ないしは発行者識別番号（Issuer Identification Number、略称:IIN）と呼び、この先頭6桁でカード発行会社(イシュア、issuer)が判るようになっている。
+
+クレジットカード番号には、最初に、国際ブランドに一定範囲が割り当てられており、その範囲で各ブランドから直接契約しているカード会社へ使用してよい範囲を割り当てている。そうした番号の供給を受けるカード会社をプリンシパルメンバーと呼ぶ。プリンシパルメンバー以外のカード会社は、さらにプリンシパルメンバーから番号の供給を受けてカードを発行している。これを加盟店開放と呼ぶ。
+
+国際ブランドのプレフィックスは以下の通り。
+- ダイナース　300-305、3095、36、38-39
+- アメリカンエクスプレス　34、37
+- JCB　3528-3589
+- Visa　4
+- MasterCard　5
+- Discover　60110、60112-60114、601174-601179、601186-601199、644-649、65
+- 中国銀聯　622126-622925, 624-626, 6282-6288
+
+
+# 0-ISO/TC 68 and other industry assignments
+- 0000-69 atre CARD
+- 0015-30 京王パスポートカード
+- 0129-01 VIEW
+- 0129-69 GRANDUO ポイントカード
+- 0140-01 石丸(アイアイ)カード → エディオンカード
+
+
+# 1-Airlines 
+- 1001-00 ソニーファイナンスインターナショナル Edy
+- 1001-90 AMC 宮交バスカ Edy
+- 1001-96 ANA MILEAGE CLUB Edy
+- 1005-00 三井住友カード Edy
+- 1206-11 楽天銀行 スーパーローンカード
+- 1276-98 三井住友カード
+
+
+# 2-Airlines and other industry assignments
+- 2000-00 イズミヤカード（プロパー）
+- 2001-00 マックチップ(三井住友銀行) Edy
+- 2101-91 D-ONEカード(第一専門店会)
+
+# 3-Travel and entertainment
+- 3001-00 GAITAME.com(ビットワレット) Edy
+- 3001-01 Rakuten Point Club Edy
+- 3001-40 おサイフケータイ(F) Edy
+- 3001-40 おサイフケータイ(SH) Edy
+- 3001-50 おサイフケータイ(SO) Edy
+- 3003-00 BIG ECHO MEMBERS CARD Edy
+- 3070-00 OMC(HOUSE)
+- 3100-00 JCB昭和シェルビジネスカード
+- 3340-21 ペルソナハウス
+- 3528-24 SAISON 郵貯 JCB
+- 3528-30 SAISON Loft JCBA
+- 3528-55 SAISON JCB
+- 3528-59 出光クレジット まいどカード JCB
+- 3528-65 SAISON JAF JCB
+- 3528-65 SAISON MUJI JCB
+- 3528-67 SAISON Mei JCB
+- 3528-68 SAISON PEC JCB
+- 3540-02 さくらカード JCB 一般
+- 3540-06 JCB　福岡カード
+- 3540-08 JCB
+- 3540-09 UFJ JCB SNOOPY-L
+- 3540-12 UFJ JCB
+- 3540-14 JCB北海道・JCBカード
+- 3540-16 セーブオン JCB
+- 3540-17 りそなJCB
+- 3540-19 UFJ JCB
+- 3540-19 さくらカードJCB
+- 3540-20 JAF JCB
+- 3540-20 JCB NET PLUS
+- 3540-20 PIA JCB
+- 3540-21 スルガ銀行JCB
+- 3540-22 トライカードJCB
+- 3540-23 ANA-SFC-JCB
+- 3540-23 JCB-LINDA
+- 3540-23 JCBコーポレート一般
+- 3540-23 JR JCB ビジネスプラスカード
+- 3540-23 フィナンシャルワンメンバーズUFJ-JCB(グランデ、一般)
+- 3540-23 早稲田カードJCB
+- 3540-24 ANA-JCB(WIDE、一般)
+- 3540-24 FinancialOne-JCB
+- 3540-24 JCB
+- 3540-24 JAF-JCB
+- 3540-24 慶應JCB
+- 3540-25 ANA JCB一般
+- 3540-25 JCB マクドナルド
+- 3540-25 JCB-Arubara
+- 3540-25 U-29/JCBカード
+- 3540-25 さくらグランデ
+- 3540-26 ANA-JCB 一般
+- 3540-26 JCB(グランデ、コーポレート一般)
+- 3540-26 MJC-JCB
+- 3540-26 ORIX Rent-A-Car Card JCB
+- 3540-26 U-29カード/JCB
+- 3540-26 UFJ-JCB
+- 3540-27 JCB E.GO
+- 3540-27 ANA-JCB(WIDE、一般)
+- 3540-27 JCB Arubara
+- 3540-27 JCB LivingPlus
+- 3540-27 JCB U-29
+- 3540-27 JCB-NetMile-Arubara
+- 3540-27 フィナンシャルワンメンバーズUFJ-JCB 一般
+- 3540-27 早稲田カード
+- 3540-27 明治大学学生カード JCB
+- 3540-28 さくらJCB-Arubara
+- 3540-28 さくらカード一般
+- 3540-28 フィナンシャルワンメンバーズUFJ-JCB グランデ
+- 3540-28 株式会社JCB-UnitedAirline
+- 3540-31 さくらグランデ
+- 3540-33 さくらTYPE SELECT
+- 3540-34 JCB EITT
+- 3540-35 さくらTYPE SELECT
+- 3540-36 ANA JCB 一般
+- 3540-3x リクルートカード JCB
+- 3540-60 大学生協-JCB
+- 3540-62 JCB-ANA St
+- 3540-68 JCB
+- 3540-68 Microsoft Plus三和JCB
+- 3540-69 JAL Card JCB (一般,CLUB-A,JGC)
+- 3540-70 JCBぴあカード
+- 3540-70 JCBセリーグ阪神タイガースカード
+- 3540-72 JCB DRIVER'S PLUS/ETC
+- 3540-74 新銀行東京カード JCB
+- 3540-74 福岡銀行arecore-JCB
+- 3540-77 JCBネクサス
+- 3540-77 フィナンシャルワンメンバーズUFJ-JCB ネクサス
+- 3540-80 JCBシナジー
+- 3540-82 JCB北海道・グランデ
+- 3540-87 DoCoMo UFJ-JCB
+- 3540-88 Persona JCB
+- 3540-90 アイワイカード JCB
+- 3540-93 アイワイカード JCB
+- 3541-00 西銀JCB-G
+- 3541-01 ANA JCB GOLD (一般, Wide, SuperFlyers)
+- 3541-01 JCB
+- 3541-01 JCB GOLD プロパー
+- 3541-01 JCB GOLD UNITED マイレージプラス
+- 3541-01 慶應JCB-Gold
+- 3541-01 早稲田GOLDカード
+- 3541-02 JCB
+- 3541-02 JCBゴールド
+- 3541-02 ANA JCB ワイドゴールド
+- 3541-02 フィナンシャルワンメンバーズUFJ-JCB ゴールド
+- 3541-69 JAL Card CLUB-A JCB-G
+- 3541-80 JCB THE CLASS
+- 3541-81 JCB BUSINESS
+- 3541-81 KKR(国家公務員共済組合連合会) JCB BUSINESS
+- 3541-81 JR-JCB-BUSINESS-Gold
+- 3542-58 JAL JCB
+- 3542-59 YAHOO!JAPAN JCBカード
+- 3542-77 Ario JCBカード
+- 3542-87 HANA PLUS JCBカード
+- 3542-90 小田急ポイントクレジットカード
+- 3551-00 JCB法人ゴールド
+- 3580-10 日立カード 一般
+- 3580-14 NOVA CARD JCB (日立カードサービス)
+- 3581-80 JR東海エクスプレス・カード（JCB）
+- 3582-01 日専連おびひろJCB
+- 3582-04 日専連JCB
+- 3582-73 dsp JCB
+- 3582-77 APLUS JCB (TSUTAYA, なんばCITY含)
+- 3582-90 GE-JCB
+- 3582-98 GE CARD JCB
+- 3582-99 GE CARD JCB GOLD
+- 3583-05 @nifty Orico-JCB
+- 3583-05 ミニミニ Orico-JCB
+- 3583-05 モンテローザOrico-JCB
+- 3584-03 楽天カード JCB
+- 3584-03 KC JCB
+- 3584-10 AEON JCB
+- 3584-11 AEON JCB
+- 3584-13 AEON JCB
+- 3584-19 AEON JCB (ETC, スポーツオーソリティー含)
+- 3584-81 Panasonic-JCB
+- 3584-88 Panasonic-JCB
+- 3584-90 高島屋JCB
+- 3586-31 MUFG-JCB
+- 3587-01 ゲゲゲの鬼太郎カード
+- 3587-01 SC・JCBカード
+- 3587-02 北専JCB
+- 3587-03 札信販JCB
+- 3587-08 GEコンシューマー・ファイナンス
+- 3587-11 JACCS-JCB ピーシーデポカード
+- 3587-11 鰤JACCS-JCB
+- 3587-11 JACCS-横浜インビテーションカード-JCB
+- 3587-11 JACCS-はこだてカード-JCB
+- 3587-11 JACCS-とあるカードの加点収集
+- 3587-11 Ponta Premium Card
+- 3587-11 JACCS 漢方スタイルクラブカード JCB
+- 3587-41 JUPI Card
+- 3587-42 UCS JCB (一般, GOLD)
+- 3587-43 全日信販JCB
+- 3587-44 ゆめJCB
+- 3587-46 OSAKA PiTaPa-トヨタTS3-JCB
+- 3587-46 JKJK
+- 3587-47 トヨタTS3カード JCB-G
+- 3587-50 OMC JCB
+- 3587-51 OMC JCB
+- 3587-59 OMC JCB ゴールド
+- 3587-61 JCB
+- 3587-81 CF JCB
+- 3587-81 セディナ JCB JR東海エクスプレス
+- 3587-87 JALカードSuica JCB
+- 3587-87 View-Suica-JCB
+- 3587-87 ビックカメラSuicaカードJCB
+- 3587-87 ルミネカード-JCB
+- 3587-87 大人の休日倶楽部ミドルカード-JCB
+- 3587-87 大人の休日倶楽部ジパングカード-JCB
+- 3587-87 エスパルビュー・スイカカード-JCB
+- 3587-87 TYOビュー・スイカカード-JCB
+- 3587-87 ジェクサービュー・スイカカード-JCB
+- 3587-93 イズミヤカード-JCB
+- 3588-21 荘内銀行バンクカード-JCB
+- 3588-74 bc
+- 3648-88 平茄子 (タイ)
+- 3691-15 Diners-Black
+- 3691-15 WASEDA Diners
+- 3691-16 Diners 一般
+- 3691-16 Diners 提携
+- 3691-16 Diners 提携JC
+- 3691-16 Diners プレミアム
+- 3691-17 Diners citigold
+- 3691-17 ANA Diners Super Flyers Card Premium
+- 3691-18 ANA Diners Super Flyers Card
+- 3691-50 DINERS NewOtaniClub
+- 3691-61 JAL Diners
+- 3691-63 JAL Global Club Diners
+- 3695-41 Diners 一般
+- 3695-54 Diners 一般
+- 3695-63 Diners コーポレート
+- 3695-70 Diners 一般
+- 3695-71 Diners 一般
+- 3695-72 Diners 一般
+- 3695-74 Diners 一般
+- 3695-91 Diners 一般
+- 3761-01 AMEX GOLD
+- 3761-03 AMEX GOLD
+- 3761-04 AMEX
+- 3761-07 AMEX GOLD
+- 3761-08 AMEX GOLD
+- 3761-09 AMEX
+- 3761-12 AMEX
+- 3761-18 AMEX
+- 3761-21 AMEX
+- 3761-22 オークラクラブ AMEX
+- 3761-24 AMEX
+- 3761-26 AMEX
+- 3761-27 AMEX
+- 3761-28 新生 AMEX
+- 3761-32 AMEX
+- 3761-32 DELTA SKYMILES AMEX GOLD
+- 3761-35 ANA AMEX
+- 3761-35 AMEX Platinum
+- 3761-53 AMEX Corp.
+- 3761-68 AMEX Corp.
+- 3761-69 AMEX Business staff (GOLD)
+- 3761-70 AMEX Business owner (PLAT)
+- 3761-71 AMEX GOLD Corp.
+- 3761-74 AMEX GOLD Corp.
+- 3761-76 AMEX GOLD Corp.
+- 3761-77 AMEX Centurion Card
+- 3761-77 AMEX Platinum
+- 3761-78 AMEX Centurion
+- 3761-79 AMEX Platinum
+- 3763-10 AMEX GOLD (タイ)
+- 3765-11 AMEX コンパニオン
+- 3765-12 AMEX コンパニオン (色がグレー)
+- 3777-81 SAISON AMEX
+- 3777-81 SAISON PLATINUM AMEX
+- 3777-81 SAISON JAF AMEX
+- 3777-81 SAISON PARCO AMEX
+- 3777-81 SAISON 鶴見はなぽーとブロッサム AMEX
+- 3777-82 SAISON DoCoMo AMEX
+- 3778-58 MUFGカード ゴールド AMEX
+- 3790-29 AMEX GIFT CARD (アメックス・プリペイドカード(有))
+
+
+# 4-Banking and financial
+- 4028-55 CITIBANK Dollar VISA
+- 4060-42 BANK ONE - THE ONE Card (VISA check card)
+- 4153-14 日興プラチナデビットカード (VISAデビット)
+- 4205-10 AEON
+- 4205-11 AEON
+- 4205-11 AEON-GOLD-VISA
+- 4205-12 AEON-GOLD-VISA
+- 4205-19 AEON
+- 4205-20 AEON-VISA
+- 4205-21 AEON-VISA
+- 4205-22 AEON-VISA
+- 4205-23 AEON-VISA
+- 4205-29 AEON-VISA
+- 4205-29 AEON JMB VISA
+- 4205-29 AEON-Suica-VISA
+- 4205-29 AEON COSMO THE CARD Opus
+- 4205-30 AEON
+- 4220-00 Life-ライフカード　ゴールド VISA
+- 4220-02 Life-ライフカード VISA
+- 4505-90 AEON-VISA
+- 4216-14 スルガVISAデビットカード (VISAデビット)
+- 4216-15 スルガVISAデビットカード (VISAデビット)
+- 4259-55 Banco BANTEC
+- 4284-85 Vプリカ （バーチャルVISAプリペイド）
+- 4284-87 NEO MONEY(セゾンVISAプリペイド)
+- 4284-90 ココカラクラブカード(VISAプリペイド)
+- 4297-69 楽天カード VISA
+- 4297-70 楽天プレミアム VISA
+- 4311-26 三井住友インターナショナルキャッシュカード
+- 4323-71 Wells Fargo Bank
+- 4363-04 SBIカードPlus Visa
+- 4363-04 ゲオPonta Visa
+- 4384-00 Banco BANTEC
+- 4391-02 東京三菱キャッシュカード<インターナショナル>
+- 4470-57 CALIFORNIA BANK & TRUST VISA
+- 4525-81 JACCS-VISA 一般
+- 4525-82 JACCS
+- 4525-84 JACCS VISA (TSUTAYA提携から切り替え)
+- 4525-84 JACCS REX CARD Lite
+- 4525-85 JACCS-横浜インビテーションカード-VISA
+- 4525-90 AEON-VISA
+- 4531-38 横浜銀行バンクカード(BC)-VISA
+- 4531-77 福岡銀行-Bank Card-VISA
+- 4534-00 DC カード GOLD
+- 4534-12 DC プロパーVISA (BTM引落)
+- 4534-19 DC-VISA
+- 4534-22 DC 早稲田 VISA
+- 4534-26 DC JAF VISA
+- 4534-29 DC-VISA 日専連
+- 4534-36 DC-VISA JAL
+- 4534-38 DC-ジザイル
+- 4534-39 DC MSNカード
+- 4534-50 DC-G-VISA
+- 4534-50 DC プロパー-VISA-Gold-VINGT (BTM引落)
+- 4534-50 DC-VISA JAL CLUB-A GOLD
+- 4534-52 DC 財団法人日本盲導犬協会カード 一般
+- 4534-52 DC NetMile VISA
+- 4534-72 ユピ JCB
+- 4534-78 DC ひろぎんDCカード
+- 4534-86 DC 第四銀行-DC-VISA 一般
+- 4534-90 DC 地銀DC ビジネスゴールド
+- 4538-51 NICOS VISA GOLD
+- 4538-52 NICOS VISA GOLD
+- 4538-65 NICOS VISA Drivers EDGE
+- 4538-65 NICOS VISA EDGE ON
+- 4538-65 NICOS VISA ENEOSカード
+- 4538-65 NICOS VISA
+- 4538-65 NICOS VIASO VISA
+- 4538-65 NICOS-DoCoMo-VISA
+- 4538-65 NICOS ebank
+- 4538-65 NICOS VISAS synergy
+- 4538-66 NICOS
+- 4538-68 NICOS VISA Soo
+- 4538-68 NICOS VISA オードリー
+- 4538-68 NICOS VISA WOWOW ぴあ
+- 4538-68 NICOS VISA BRIDGESTONE CARLIFE SUPPORT CARD
+- 4538-70 NICOS VISA三菱地所グループ
+- 4538-70 NICOS VISA三菱地所グループ ゴールド
+- 4538-87 Yahoo! JAPAN VISA
+- 4538-92 ゆめカードVISA
+- 4538-93 GE-VISA (旧ジーシー発行)
+- 4538-97 髙島屋 VISA
+- 4538-98 APLUS chobirich card
+- 4541-10 SAISON 郵貯チェックカード《セゾン》(VISAチェック)
+- 4541-10 SAISON 三井アウトレットパークカード VISA
+- 4541-10 SAISON ローソンPontaカードVisa
+- 4541-11 SAISON LaOXメンバーズカード/VISA
+- 4541-12 SAISON MONEXVISA
+- 4541-14 SAISON-VISA　(池袋西武)
+- 4541-15 SAISON CLUB ONカード《セゾン》 VISA
+- 4541-15 SAISON MONEX VISA
+- 4541-15 SAISON 株主優待VISA
+- 4541-17 SAISON LAWSON PASS VISA
+- 4541-22 SAISON
+- 4541-23 SAISON MONEX-VISA
+- 4541-23 SAISON 郵貯《セゾン》VISA
+- 4541-24 SAISON
+- 4541-25 SAISON ゆうちょVISA
+- 4541-30 SAISON そごうミレニアム
+- 4541-30 SAISON クラブオンカード
+- 4541-30 SAISON-フォービート
+- 4541-31 SAISON 五番館 (北海道西武)
+- 4541-31 SAISON UA Airlines Mileage Plus
+- 4541-32 SAISON
+- 4541-33 SAISON UA
+- 4541-33 SAISON 郵貯チェック
+- 4541-40 SAISON JAF《セゾン》VISA
+- 4541-40 SAISON-@nifty
+- 4541-41 SAISON-郵貯VISA
+- 4541-41 UC
+- 4541-42 SAISON-MONEX-VISA
+- 4541-43 SAISON-VISA
+- 4541-50 SAISON みずほマイレージクラブカードセゾンSuica
+- 4541-51 SAISON カードVISA・北海道西友
+- 4541-51 SAISON CLUB ON SAISONカードVISA
+- 4541-52 SAISON 郵貯《セゾン》VISA
+- 4541-53 SAISON
+- 4541-54 SAISON
+- 4541-55 SAISON
+- 4541-56 SAISON visa
+- 4541-58 SAISON りそなカード セゾンVISA
+- 4541-59 SAISON
+- 4541-61 SAISON-VISA
+- 4541-65 SAISON @nifty VISA
+- 4541-66 SAISON @nifty VISA
+- 4541-66 SAISON Microsoft VISA
+- 4541-66 SAISON VISA L.L.Bean Club
+- 4541-67 SAISON WOWOW-VISA
+- 4541-71 SAISON 郵貯VISA
+- 4541-72 SAISON
+- 4541-73 SAISON
+- 4541-90 髙島屋 カード《ゴールド》
+- 4541-96 SAISON りそな SAISON VISA GOLD
+- 4542-02 イーバンクマネーカード CLASSIC (VISAデビット)
+- 4542-03 イーバンクマネーカード GOLD (VISAデビット)
+- 4542-05 りそなVISAデビットカード〈JMB〉 (VISAデビット)
+- 4542-14 UC みずほ-G VISA
+- 4542-20 UC WWF VISA
+- 4542-20 UC みずほ-VISA一般
+- 4542-24 UC-VISA JAF
+- 4542-48 UC-VISA 日産カード
+- 4542-71 UC-VISA りそな
+- 4542-72 UC
+- 4542-73 UC-VISA Honda C-card
+- 4542-74 UC-VISA Honda C-card (りそなカード)
+- 4542-75 UC-VISA DoCoMo
+- 4542-75 UC VISA みずほ
+- 4542-75 UC ビックカードインターナショナル
+- 4542-85 VIEW JR東日本
+- 4542-85 VIEW-VISA
+- 4542-86 VIEW-VISA
+- 4542-86 VIEW-VISA マイシティ新宿カード
+- 4542-87 VIEW-Suica-VISA LUMINE
+- 4542-87 VIEW Mizuho Suica
+- 4542-87 VIEW Suica VISA
+- 4542-87 VIEW アトレクラブビューSuicaカード
+- 4542-87 VIEW weビュー・スイカカード
+- 4543-25 ＲＯＰ質金Ｖ(タイ)
+- 4543-81 東急TOP&-VISA
+- 4543-82 東急TOP&-VISA
+- 4543-83 東急TOP&-VISA
+- 4566-00 MUFG-VISA
+- 4566-05 UFJ Card プレミオVISA
+- 4566-05 UFJ ワンパスVISA
+- 4566-33 MUFGカード ゴールド
+- 4566-96 セディナ CF GOLD-VISA
+- 4575-56 able
+- 4685-12 TS3 CUBIC レクサスカード VISA Platinum
+- 4685-17 TS3-VISA teamTOYOTA
+- 4691-10 ISETAN-ICARD VISA
+- 4691-10 meitetsu-ICARD VISA
+- 4700-86 大丸お得意様ゴールドカード(ハウス・11桁)
+- 4708-01 中国銀行DREAMe W VISA
+- 4708-06 横浜バンクカード Suicaゴールド
+- 4708-06 横浜バンクカード Suicaヤングゴールド
+- 4708-07 横浜バンクカード Suica
+- 4708-35 TOMIN CLUB CARD VISA（東京都民銀行）
+- 4708-36 天満屋カード VISA
+- 4708-91 ゆうちょ銀行
+- 4730-63 CALIFORNIA BANK & TRUST (キャッシュカード・VISAデビット)
+- 4897-83 EPOS VISA
+- 4897-84 EPOS デザインカード
+- 4897-84 EPOS SHIDAX
+- 4897-85 EPOS バーチャルカード
+- 4897-88 EPOS ゴールドカード
+- 4897-89 EPOS プラチナカード
+- 4901-15 NW-CITI-VISA-Gold
+- 4901-20 セディナ OMC-VISA
+- 4901-21 セディナ OMC-VISA
+- 4901-29 セディナ OMC GOLD VISA
+- 4901-29 セディナ OMC-VISA
+- 4906-43 三菱東京UFJ VISA GOLD PREMIUM
+- 4906-46 三菱東京UFJ
+- 4906-47 三菱東京UFJ
+- 4907-14 Citi-VISA NW
+- 4907-14 WQ
+- 4907-14 Citi-VISA student
+- 4907-14 Citi-VISA Amazonクレジットカード
+- 4907-14 Citi クラシック(A) VISA
+- 4907-15 NWA-Citi-WorldPerks-VISA-Gold
+- 4907-15 Citi VISA
+- 4907-15 Citi VISA ELITE
+- 4922-30 Citi VISA PLATINUM
+- 4922-30 Citi-VISA NW-CITI-VISA-Plt
+- 4922-31 NTTグループカード-VISA
+- 4922-32 七十七カード VISA
+- 4922-33 七十七カード VISAゴールド
+- 4922-42 さぎんモテカカード VISA
+- 4922-53 北国VISA カード
+- 4922-54 東京VISA
+- 4922-55 東京VISA GOLD
+- 4922-56 北国VISA ゴールド
+- 4922-57 群銀カード VISA
+- 4922-58 群銀カード VISAゴールド
+- 4922-59 三重銀カード VISA
+- 4922-60 三重銀カード VISAゴールド
+- 4922-67 住信VISA
+- 4922-68 住信VISA ゴールドカード
+- 4922-68 住信ロードサービスVISA-G
+- 4922-69 あさひVISA
+- 4922-69 あさひデルタVISA
+- 4922-69 りそな-VISA とらのあな
+- 4922-69 りそな
+- 4922-69 りそな　東横イン４＆５
+- 4922-71 りそな
+- 4922-71 りそな 早稲田ゴールドカードAlumni
+- 4922-73 やまぎんクレジットVISAゴールド
+- 4922-78 信金VISA
+- 4922-85 道銀カード 道銀ＶＩＳＡカード
+- 4922-86 道銀カード 道銀ＶＩＳＡゴールドカード
+- 4922-87 福岡銀行 arecore-VISA
+- 4923-13 NICOS-VISA
+- 4923-13 NICOS 郵貯VISA
+- 4923-13 NICOS VISA さくらや
+- 4923-13 NICOS 国際ボランティア貯金カード-VISA
+- 4923-14 NICOS-VISA(ncom)
+- 4923-39 全日鰤
+- 4923-41 NICOS VISA ぴあ
+- 4923-43 NICOS VISA
+- 4923-44 NICOS VISA
+- 4923-46 NICOS VISA(ぴあ)
+- 4923-46 NICOS 郵貯ジョイントカード-VISA
+- 4923-58 LIFE-VISA
+- 4923-80 NICOS-VISA It'sカード
+- 4923-86 NICOS-VISA 郵貯ジョイントカード
+- 4923-87 NICOS ぴあカード
+- 4923-90 NICOS VISA Ena
+- 4923-91 NICOS VISA 昭和シェル X-CARD
+- 4937-95 Orico @niftyパワーオリコ VISA
+- 4937-95 Orico VISA
+- 4937-95 Orico コジマ
+- 4961-12 ヨドバシゴールドポイントIC eLIO VISA
+- 4980-00 SMC
+- 4980-00 SMC ANA VISA G
+- 4980-00 SMC ANA Super Flyers Card VISA GOLD
+- 4980-00 SMC ヒルトンHオナーズ VISA GOLD
+- 4980-00 Panasonic-VISA
+- 4980-00 SMC-VISA-GOLD
+- 4980-00 三井住友 ＶＩＳＡゴールド(ヤング)
+- 4980-01 SMC-VISA-Tuo
+- 4980-01 ANA elio-VISA
+- 4980-01 SMC-VISA JNB
+- 4980-01 My Sony Card
+- 4980-01 SFC-ANA-VISA
+- 4980-01 SFC-VISA(plalaカード)
+- 4980-01 SMBC ANA-VISA
+- 4980-01 SMC unicef VISA
+- 4980-01 SMC-ANA-VISA-St
+- 4980-01 SMC-ANA-VISA-Suica
+- 4980-01 SMC-VISA
+- 4980-01 SMC-VISA クラシックA
+- 4980-01 ソニーファイナンス BeneficioCard (elio 企業提携)
+- 4980-01 ソニーファイナンス丸の内VISA
+- 4980-01 慶應カード -st
+- 4980-01 GOLD POINT CARD + VISA
+- 4980-01 SMC-ALPS VISA (地方公務員等ライフプラン協会)
+- 4980-03 SMC-VISA
+- 4980-03 SMCクラシックA(学生)-VISA
+- 4980-03 三井住友VISA miniクラシックカード
+- 4980-03 三井住友VISAクラシック
+- 4980-05 三井住友 MJC-VISA
+- 4980-05 NKLDSAJK
+- 4980-05 楽天カードーVISA
+- 4980-05 三井住友VISAッピ
+- 4980-05 三井住友VISAワンダー
+- 4980-05 三井住友カード/MJC
+- 4980-05 三越VISA
+- 4980-05 ラブプラスvisaカード
+- 4980-05 アイマスVISAカード
+- 4980-06 三井住友 HANA PLUS VISA
+- 4980-07 DCMX VISA
+- 4980-11 SMC VISA Platinum
+- 4980-13 JFR DAIMARU VISA
+- 4980-20 三井住友VISAビジネスカードGOLD
+- 4980-22 SMC-VISA CORPORATE
+- 4980-36 九州カード
+- 4980-37 九州カード 九州VISAカード
+- 4980-60 NC北海専門店会　VISA
+- 4980-61 GECF-VISA
+- 4980-61 GECF-VISA JARL CARD/SMBC発行
+- 4980-61 NCおびひろ VISA
+- 4980-61 第一信販NC VISA
+- 4980-62 NCとまこまい
+- 4980-62 札幌信用販売　VISA
+- 4980-66 イズミヤVISAカード
+- 4980-66 ポケット
+- 4980-66 マイカルVISA
+- 4980-66 住商カード
+- 4980-73 九州カード 提携
+- 4980-73 九州カード バーチャルカード
+- 4980-74 九州カード 提携　ゴールド
+- 4980-75 visacard
+- 4980-75 しんきんクレジットサービス　ロードサービスビザ
+- 4986-11 イトーヨーカドーVISA
+- 4986-12 セブンカードVISA
+- 4986-31 UFJ-VISA DoCoMo
+- 4986-31 UFJ-VISA auじぶん
+- 4986-32 UFJ-VISA APA-JRA
+- 4986-32 UFJ-VISA
+- 4986-32 UFJ-VISA K-power
+- 4986-32 UFJオールワン一体型
+- 4986-32 UFJ-VISA スカイマーク　
+- 4986-51 UFJ-FinancialOne-VISA
+- 4986-58 UFJ VISA J-WEST
+- 4986-60 UFJ
+- 4986-94 セディナ CF-VISA
+- 4986-94 JR東海エクスプレス・カード（Visa）
+- 4986-94 セディナ EXPOエコマネーグリーンカード
+
+
+# 5-Banking and financial
+
+- 5010-90 東急TOP ホワイト
+- 5010-91 東急TOP (ハウス)
+- 5010-98 東急TOP QPoint
+- 5045-72 みずほ銀行(旧)エムタウン支店・インターナショナルキャッシュカード(Cirrus提携)
+- 5127-80 SBI
+- 5166-45 au Wallet/WebMoney Card
+- 5178-95 City National Bank of West Virginia - Gold Debit Matercard
+- 5183-80 セディナ クオーク-マスター
+- 5186-91 アイフル e-まちタウンPPC MasterCard
+- 5201-75 東☆マスター
+- 5208-09 UFJ-Financial One-MasterCard
+- 5208-09 UFJ 一般マスター
+- 5208-09 UFJ スカイマーク　Master
+- 5208-31 UFJ DoCoMo UFJ Card Master
+- 5208-40 UCS-MasterCard(一般)
+- 5208-48 UFJ マスター
+- 5208-49 UFJ vodafone card 東海
+- 5208-58 J-WEST エクスプレスMaster
+- 5208-58 J-WEST ベーシックMaster
+- 5208-82 UCS enta Master
+- 5208-82 UCS-MasterCard(ゴールド)
+- 5210-01 KCカード Master
+- 5210-12 楽天カード Master
+- 5210-15 楽天カード
+- 5210-16 楽天カード Master
+- 5214-65 NICOS ENEOS-MASTER
+- 5214-87 Yahoo! JAPAN Master
+- 5214-88 ゆめカード youme-Master
+- 5214-98 Aplus Master Smile Personal
+- 5219-00 セディナ CF-マスター
+- 5219-00 JR東海エクスプレス・カード（MasterCard）
+- 5219-13 セディナ CF-ブリジストン　マスター
+- 5219-15 セディナ CF-Naster(JR東海EXPRESS CARD)
+- 5248-05 Orico-Master FORCEA
+- 5248-05 ORICO-HUKU2PLUSカード
+- 5248-05 Orico-(ナジャヴ倶楽部)-MASTER
+- 5248-05 Orico-@nifty-Master
+- 5248-05 Orico-Animate-Master
+- 5248-05 Orico 鱒 TIPNESS
+- 5248-05 Orico Yahoo!Japan-Master
+- 5248-05 Orico iGold Master
+- 5248-05 Orico 暮らしの森アスクラスゴールド Master
+- 5248-05 Orico クラブアライアンス
+- 5248-05 Orico サンカード
+- 5248-05 Orico-Master フタバファースト
+- 5248-05 Orico-Master 鰤
+- 5248-05 Orico Skywalker(HIS)Gold CARD
+- 5248-06 Orico Gold Master Card UPty
+- 5248-06 Orico MasterCard UPty
+- 5248-06 Orico らき☆すたMasterCard UPty
+- 5248-06 Orico 魔法少女まどか☆マギカ MasterCard UPty
+- 5250-03 UC MIZUHO GOLD
+- 5250-06 UC-Master YamahaFeelingClub
+- 5250-14 UC Master Gold
+- 5250-14 UC JR UC BUSINESS Gold
+- 5250-22 UC mizuho master
+- 5250-35 UC-Master Gold(みずほマイレージ)
+- 5250-36 UC-Master(みずほマイレージ)
+- 5250-36 Mizuho Mileage Club (SELECT)
+- 5250-48 NISSAN CARD　MASTER
+- 5250-48 UC マスター
+- 5250-69 UC Master JTB
+- 5250-71 UC Master @nifty
+- 5250-72 UC Master DoCoMo
+- 5250-72 UC Master MIZUHO UC select
+- 5250-72 UC
+- 5250-72 UC WWFセレクト MASTER
+- 5250-72 UC Master トランスルーセント
+- 5250-72 UC Master みずほ
+- 5250-72 UC Master biccard-international
+- 5250-72 銀座牛鱒
+- 5250-72 UC Master 三越
+- 5250-73 UC マイレージプラスセレクト・マスター
+- 5250-87 VIEW-Master LUMINE
+- 5250-87 VIEW Suica MasterCard
+- 5251-13 NICOS MASTER ぴあ
+- 5251-13 NICOS-MASTER-CAMPUS
+- 5252-10 SAISON Master
+- 5252-10 SAISON UAカレッジ
+- 5252-12 SAISON Master
+- 5252-14 SAISON UA Master
+- 5252-15 SAISON
+- 5252-15 SAISON-MASTER
+- 5252-15 SAISON クラブオン・セゾン Master
+- 5252-24 SAISON -Master
+- 5252-31 SAISON Master
+- 5252-36 SAISON
+- 5252-40 SAISON Master Mitsui Outlet Park
+- 5252-59 SAISON 出光 mydo plus Master
+- 5252-65 SAISON Master Vodafone
+- 5252-65 SAISON UA 一般
+- 5252-90 SAISON Master UA カード ゴールド
+- 5252-91 SAISON-MASTER SOGO-Millennium-GOLD
+- 5257-01 OMC-Mastercard
+- 5279-16 東急TOP& GOLD DC Master
+- 5279-16 東急TOP& DC Master
+- 5279-18 東急TOP& GRANDBERRY DC Master
+- 5279-18 東急TOP& TOKYU PLAZA CARD プラザプラス Master
+- 5279-34 DC JALCard Master CLUB-A
+- 5279-34 DC JALCard Master 一般
+- 5279-35 DC Master GOLD
+- 5279-39 DC-Master クラブドンペンカード
+- 5279-42 DC マスターカード 東京海上
+- 5279-51 DC GONZO Master GOLD
+- 5279-51 DC Master JAL CLUB-A Gold
+- 5279-51 DC Master JGC CLUB-A Gold
+- 5279-51 DC Master 日本盲導犬協会カード Gold
+- 5279-70 DC
+- 5283-71 DoCoMo NTT-L Master
+- 5283-71 UC Master SCENE (NTT-L)
+- 5283-71 UC ちば興銀
+- 5283-71 UC りそなカード Master
+- 5283-88 旧山一證券一般 (廃業によりUC直轄に移管)
+- 5285-77 ふくぎん BANK CARD Master
+- 5296-00 MUFG-Master
+- 5296-05 UFJ プレミオカード
+- 5296-59 HSBC PREMIER (World)
+- 5302-30 三井住友 MasterCard GOLD
+- 5302-31 SMC MasterGold Platinum
+- 5302-32 SMC ANA Master Gold
+- 5302-58 さぎんモテカカードMasterゴールド
+- 5306-60 りそな　OMNI-master
+- 5312-80 イオン
+- 5312-81 イオン
+- 5312-82 イオン
+- 5312-83 イオン
+- 5312-84 イオン Master
+- 5312-86 イオン
+- 5312-89 イオン MJC-AEON-Master
+- 5312-89 イオン I love 代官山
+- 5312-91 JACCS カード-Master
+- 5312-91 JACCS ゴールドカード-Master
+- 5312-91 JACCS 北海道日本ハムファイターズFCカード-Master
+- 5312-91 JACCS Sofmap
+- 5312-92 JACCS
+- 5312-93 JACCS-コジマカード
+- 5321-71 JTB-master
+- 5334-90 SMC-Master クラシックA
+- 5334-91 SMC-ANA-Master 学生カード
+- 5334-91 SMC-ANA-Master 一般
+- 5334-91 SMC-パスタウンMASTER
+- 5334-91 SMC-ALPS VISA (地方公務員等ライフプラン協会)
+- 5334-94 SMC-ANA-MASTER
+- 5334-96 SMC-Master
+- 5406-01 CITIBANK GOLD
+- 5409-97 UNION BANK OF CALIFORNIA (Masterデビット)
+- 5412-75 JACCS-YOSAKOI NET CARD
+- 5434-72 DC りゅうぎんDCパートナーVISA
+- 5436-16 アコム-Master
+- 5438-16 武富士 マスター
+- 5438-17 Citi クリア-Master
+- 5442-51 ポケットカード くらしらくカード Master
+- 5442-54 ポケットカード Master
+- 5442-54 ポケットカード Masterイエロー
+- 5442-54 マイカルブルー MasterCard
+- 5442-54 ポケットカード P-one card Master
+- 5452-85 Life AOYAMA CARD)
+- 5452-85 Life 踊る大走査線 マスターカード
+- 5452-85 Life-Master
+- 5578-51 TS3-M-G
+- 5578-52 TS3 カード［ビジネス］MASTER 一般
+- 5610-18 Sonybank Moneykitグローバル (JPモルガンチェース提携)
+- 5889-02 Citi Bank cash card
+
+
+# 6-Merchandizing and banking
+
+- 6000-53 えらべる倶楽部 クレ無 (JTBベネフィット福利厚生)
+- 6101-90 JTB TRAVEL POINT CARD
+- 6229-20 三井住友銀聯
+- 6502-30 東急TOP (現金専用)
+- 6900-05 TS3 TRBM (国際ブランド無しハウスカード)
+- 6900-07 PiTaPa ベーシック
+- 6900-11 三井住友カードiD
+- 6900-11 DCMX mini
+- 6901-01 丸井の赤いカード
+- 6911-00 伊勢丹 アイカード
+- 6911-31 高島屋友の会 (ローズサークル)
+- 6922-00 高島屋 ゴールドカード
+- 6229-20 三井住友銀聯カード
+- 6930-50 イオンプロパー
+- 6950-01 日経BP NICOS
+- 6950-02 NICOS プロパー国内専用
+- 6950-02 NICOS-JRA
+- 6950-17 エネオス・ニコス
+- 6950-17 ニコス
+- 6950-20 NICOS スマートプラス (カード型)
+- 6991-10 JACCS-Club Endeavor
+- 6998-76 MLカード
+
+# 7-Petroleum
+
+- 7000-00 JCB ETC する～カード
+- 7060-21 ライフ ETCカード
+- 7060-80 JACCS ETCカード
+- 7061-80 GE CARD ETC
+- 7070-20 ポケットカード ETC
+- 7200-11 NICOS ETC-Plus (親カード NICOS VISA)
+- 7250-30 you me ETC card
+- 7500-00 JCB EXXONMOBILL Corporate Plus
+- 7611-27 AEON ETCカード
+- 7800-01 三井住友カード ETCカード
+- 7800-16 りそなカード ETC
+
+
+# 8-Telecommunications and other industry assignments
+- 8001-02 日産カード(ハウス)
+- 8003-75 UC ETCカード
+- 8300-88 Exon Mobile (親カード JCB)
+- 8401-00 UFJ ETCカード
+- 8500-30 JCB
+- 8601-00 SAISON ETCカード
+- 8612-00 SAISON ETCカード
+- 8800-12 ETC-OMC(親カード関係なし)
+
+
+# 9-National assignment
+
+- 9005-00 Citi ETC CARD
+- 9100-00 Orico ETCカード
+- 9300-00 CF ETC
+
+
+
+
+
+
