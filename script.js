@@ -22,7 +22,7 @@ async function lookupBIN() {
         return;
     }
 
-    // 数字以外を削除（例: "4708-91" → "470891"）
+    // 数字以外を削除
     let normalizedBin = bin.replace(/\D/g, "");
 
     // 国際ブランドを判定
@@ -47,17 +47,18 @@ async function lookupBIN() {
             <p><strong>国際ブランド:</strong> ${brand}</p>
             <p><strong>発行会社:</strong> ${found.description}</p>
         `;
+        document.getElementById("contactMessageMissing").classList.add("hidden"); // 情報がある場合は非表示
+        document.getElementById("contactMessageGeneral").classList.remove("hidden"); // 通常メッセージは表示
     } else {
         document.getElementById("result").innerHTML = `
             <p><strong>国際ブランド:</strong> ${brand}</p>
             <p><strong>発行会社:</strong> 情報が見つかりませんでした。</p>
         `;
+        document.getElementById("contactMessageMissing").classList.remove("hidden"); // 情報がない場合は表示
+        document.getElementById("contactMessageGeneral").classList.add("hidden"); // 通常メッセージは非表示
     }
-
-    // お問い合わせメッセージを常に表示
-    const contactMessage = document.getElementById("contactMessage");
-    if (contactMessage) contactMessage.classList.remove("hidden");
 }
+
 
 // 国際ブランド判定
 function getCardBrand(bin) {
@@ -108,6 +109,3 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
-
-// 初回ロード
-loadBINData();
