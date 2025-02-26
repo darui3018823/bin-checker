@@ -7,7 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex items-center justify-center h-screen bg-gray-100">
-
     <!-- お問い合わせポップアップ -->
     <div id="contactModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
         <div class="bg-white p-6 rounded-lg shadow-lg w-96 text-center">
@@ -47,14 +46,7 @@
                 続行
             </button>
         </div>
-    </div>
-
-    <!-- 通常の表示 -->
-    <p id="contactMessage" class="text-sm text-gray-500 mt-4 hidden">
-        もし表示されている項目とお手持ちのカードに相違がありましたら、<br>
-        <a href="#" onclick="openContactModal()" class="text-blue-500 underline">こちら</a>よりお問い合わせください。
-    </p>
-    
+    </div>    
 
     <!-- メインコンテンツ -->
     <div class="bg-white p-6 rounded-lg shadow-lg w-96">
@@ -64,11 +56,19 @@
             検索
         </button>
         <div id="result" class="mt-4 text-center text-lg"></div>
-        <p id="contactMessage" class="text-sm text-gray-500 mt-4 hidden">
+
+        <!-- BINがデータベースにない場合のメッセージ -->
+        <p id="contactMessageMissing" class="text-sm text-gray-500 mt-4 hidden">
             入力された情報のどちらかがデータベース上に無いようです。<br>
             今後の改善のためにもぜひ
             <a href="#" onclick="openContactModal()" class="text-blue-500 underline">こちら</a>
             より情報をご提供ください。
+        </p>
+
+        <!-- 常に表示するお問い合わせメッセージ -->
+        <p id="contactMessageGeneral" class="text-sm text-gray-500 mt-4">
+            もし表示されている項目とお手持ちのカードに相違がありましたら、<br>
+            <a href="#" onclick="openContactModal()" class="text-blue-500 underline">こちら</a>よりお問い合わせください。
         </p>
     </div>
 
